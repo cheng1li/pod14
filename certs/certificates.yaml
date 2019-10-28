@@ -1,0 +1,1693 @@
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDSDCCAjCgAwIBAgIUIU7zMWQPFqNZ6kQwCN5Dozw133gwDQYJKoZIhvcNAQEL
+  BQAwKjETMBEGA1UEChMKS3ViZXJuZXRlczETMBEGA1UEAxMKa3ViZXJuZXRlczAe
+  Fw0xOTEwMjgxMDQyMDBaFw0yNDEwMjYxMDQyMDBaMCoxEzARBgNVBAoTCkt1YmVy
+  bmV0ZXMxEzARBgNVBAMTCmt1YmVybmV0ZXMwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+  DwAwggEKAoIBAQDszABi3FfH0mqGkvkR91ZCbbIY/1liuz40TbqhpCIZAVN4md+j
+  l5yPyDUKeh2gQeQk2PDYYcJQvCVSbaOrqL+NR5VtbUaOsmrqvmCDX9zxDCjuFW+a
+  8C9oSMhfGK97N5oE1XnKUnjNeSZ6kIRx/1LzO+iJWW6PL1h0jty5ns4F/imUZUq9
+  Nue/gzgkByg6UyovaEjaYREhnjdd7tbfFOoCZywqaxob8jNFQAeMRCo+HiBAVTS5
+  UFmeq9YaXg5PSloqc6iHViriMThQQ65bQtEvqP8VRYv0wDAvgVzXdXCpt/GlSYWF
+  g+kUOC0d7RAif0R2nSq/ELb7FkiDjIpNisrTAgMBAAGjZjBkMA4GA1UdDwEB/wQE
+  AwIBBjASBgNVHRMBAf8ECDAGAQH/AgECMB0GA1UdDgQWBBQNi7FlRiFGRkZ1RApD
+  Axw/pjD8OzAfBgNVHSMEGDAWgBQNi7FlRiFGRkZ1RApDAxw/pjD8OzANBgkqhkiG
+  9w0BAQsFAAOCAQEAyXqG2lDD8BOQY9Pd4hv0PnEAX9QcG0yvXtodQCRihpAFf+vE
+  IeB9bVtRoZIkH2yM65VVLDiM/Rn3RxBnacmquBUbMAvfvCbp6OU+yLZM5sg3VeoR
+  BOPR64kSMlDHoWP4y0vyIp9L79GFQ9iuVC5s/7HsUUs+dTv3soGoEBd0vf8QlQG9
+  spAqJE4dXwOIoISSUm0bJwdjK4BXAhf04EYF2GldPRkWCA3LAXTrom3IJiZrNEnc
+  gyKqlpDvL0yRM5urhrqCX3dvTJksiGn4A8Pr2gpvv+Xq6t5K4QudnLZll+lLVDge
+  uWNDE6yGK89n9bW+tINQ9gcHNffnfU+gAHsNVg==
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubernetes
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateAuthority/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDUjCCAjqgAwIBAgIUbk4FVRiapODaLhoh/EUCUDhRd3MwDQYJKoZIhvcNAQEL
+  BQAwLzETMBEGA1UEChMKS3ViZXJuZXRlczEYMBYGA1UEAxMPa3ViZXJuZXRlcy1l
+  dGNkMB4XDTE5MTAyODEwNDMwMFoXDTI0MTAyNjEwNDMwMFowLzETMBEGA1UEChMK
+  S3ViZXJuZXRlczEYMBYGA1UEAxMPa3ViZXJuZXRlcy1ldGNkMIIBIjANBgkqhkiG
+  9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2/3sHqBFAGCjRaEjuN4oXxUfx4xGCcPQ8awE
+  jtyk1M3t5kn/UjCm8eu5rYl+pYzhyx/sTK5Z6ZqJKtvK2GcFwWQsjgiHMr9XnDWH
+  cnyi2rqlW1Q6JHbyOxvl2cCKfEfsHO2fuS6ZTYtaiRZBmcz7Nlueq7vIqqxLnd1+
+  RnszTDCwkKbYjIQYgBan7O4w2qXnFeOpNRDrxBM+8f0/JY/w6XFjoMxfXb1e+Crw
+  ZUr1qfWqC2dlGjbHTGXu8NcXLsY2sbPQgtVI9PqDquRt02cBFczgVI7FmAAYTBfk
+  NDfjJzQ769uNVWinp9SPy4W2uiXihGMprm08E9v3L8gcNHvDIwIDAQABo2YwZDAO
+  BgNVHQ8BAf8EBAMCAQYwEgYDVR0TAQH/BAgwBgEB/wIBAjAdBgNVHQ4EFgQUOQMq
+  g5WTeHejkbPNNItMCY4yTiUwHwYDVR0jBBgwFoAUOQMqg5WTeHejkbPNNItMCY4y
+  TiUwDQYJKoZIhvcNAQELBQADggEBALCgiqCU1Retj4TSh02a1yg1G6IE/m2BjDW+
+  9f7RfHhkW9XPmxFwhusT9WfdtN1g5mj426twPG3mo46m+M1rviR8z1vQXwsKIW5a
+  m1FalcyBU1INYYTzZpRgmjGv9JN2j1jsBQHINq1aSzTVQzS1pW3tgemteekHxdyJ
+  b7AuN9jgLGNhZq2EfViEq/JoYKZNCzH6TYzNIstKa8Gn8kPvbWr37lPf7TIzfXdO
+  K30iWTQV1Mmv+ZKKXNyNyNAkNMlAmAg5fiaeAMzl6sbfBwdnOBDXxWDKIB+H1mww
+  EaSsImr2t1XTARQWYX0/CJeHdttkmV7mgH8KRaK6mFM4HzbuJ+U=
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubernetes-etcd
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateAuthority/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDXDCCAkSgAwIBAgIULHFilWjAxE6X0TWIWHhYq1cI6bUwDQYJKoZIhvcNAQEL
+  BQAwNDETMBEGA1UEChMKS3ViZXJuZXRlczEdMBsGA1UEAxMUa3ViZXJuZXRlcy1l
+  dGNkLXBlZXIwHhcNMTkxMDI4MTA0MzAwWhcNMjQxMDI2MTA0MzAwWjA0MRMwEQYD
+  VQQKEwpLdWJlcm5ldGVzMR0wGwYDVQQDExRrdWJlcm5ldGVzLWV0Y2QtcGVlcjCC
+  ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK0zNyzI0wFWc+gTPJfmhLKX
+  F6wJ2iqzdeMeJzLs6KG7QYVWGwRjAJlmGbBYNOWPU9xHGOphTQcYIZmiQ2i9lvkZ
+  fImS/Gsw8OcblIxqMU2mJhkyzl2xpcJPANSemC0Ynmo3KtH7NsNE5Lz3c+dLACpQ
+  uA4Zm5UzgDB4aVWQWllJcbdBtT5da4MFEmZpfkYRjP7VFpKguP0Q8P/FJBtHgZgb
+  wHdf4n+Ootrw2IWNj0avzFGZLv+W2imLnUsESBD4Fi1jB8xyvyOl3JVZvk+ZR7rm
+  D2jV9ExlQMAt3JbuqpsEX/lUfbEOGl/MrMl9TQBfYo7n4bH6tiHz4SagQkxsBSEC
+  AwEAAaNmMGQwDgYDVR0PAQH/BAQDAgEGMBIGA1UdEwEB/wQIMAYBAf8CAQIwHQYD
+  VR0OBBYEFArRtLfgA/uxfhbp9dDjzhfxk6usMB8GA1UdIwQYMBaAFArRtLfgA/ux
+  fhbp9dDjzhfxk6usMA0GCSqGSIb3DQEBCwUAA4IBAQBJ1vFH8KbzvkAKgiMFV8K4
+  A0vvdmR8oNYrGWsgPA4Kxg2NiD1CzwXU9vp3Cwvi7HLzTQKWz+OLotKymXsjKto9
+  Ln7sBVbBuauhVFtQvPb9ls0TLa3JZunqW44c9yAa62YXkknBsId74qK2NZGvwPUj
+  gQ+axJ2t57BOtNxv6SYqOWsE2cligN9hre4HvfX1sl1hJBZOq9gUGW8Kw1eMVdgl
+  KSwZDZIQQtr8q9cFTah6GdJJpfscsuY3Wcalv+nAKxHjx5umG7Tgpaa1POz6Acax
+  u6iv5sgJBTmQiyK3scXYJqM264KvoovcB+621aJk1tfCfJoM4TKO/tTD0+Dluv0E
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubernetes-etcd-peer
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateAuthority/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDSjCCAjKgAwIBAgIUA6dLGw/Y9l12Mv/TypyxF4nFFNMwDQYJKoZIhvcNAQEL
+  BQAwKzETMBEGA1UEChMKS3ViZXJuZXRlczEUMBIGA1UEAxMLY2FsaWNvLWV0Y2Qw
+  HhcNMTkxMDI4MTA0MzAwWhcNMjQxMDI2MTA0MzAwWjArMRMwEQYDVQQKEwpLdWJl
+  cm5ldGVzMRQwEgYDVQQDEwtjYWxpY28tZXRjZDCCASIwDQYJKoZIhvcNAQEBBQAD
+  ggEPADCCAQoCggEBAO3CsrkqvahAP5Exyb61a2la/XgapNITluB306m3pt2Q11V/
+  CTUwrx3AQaK4bMXJGtKa6j89XJ6Q1LMVSDVR+l//sldqED/HQs/fRfDFOp3LArqJ
+  lAPPa1sZdlB6WEYWyzaj7jHP22gvi8+GawwdDdzjyNwTAeCsPxAJ+mZHQ4TftHp0
+  YmF/3008v+Oxagd1MCb9kGlwYqdWJ75PUr8znGIOXpEtZtlQE4NLWjUt+FH37l48
+  2pKOtQIUAwEBQgZcsrxKuJD4emTngVUFeqdHH5gVA9NwviO3PQ0Zzyrt/Oc5SvRS
+  uLJflRIQGbuWQfbt/L+e8zI5VJ07WsMVmnK9BycCAwEAAaNmMGQwDgYDVR0PAQH/
+  BAQDAgEGMBIGA1UdEwEB/wQIMAYBAf8CAQIwHQYDVR0OBBYEFD0abnmWh1PYQ5iC
+  zxIwABeIfSQZMB8GA1UdIwQYMBaAFD0abnmWh1PYQ5iCzxIwABeIfSQZMA0GCSqG
+  SIb3DQEBCwUAA4IBAQC3Oi7rXInxsw7oUSDxlsw/TtMsNSM6WenBXxdztOTPmMLN
+  hWb8Xn0xg5Z3+xRCuWJoaM8ujdAySKV9alveJxQb9WBB/u6PoeGH/biJwwfZr4/x
+  sdJMBqi6HbsdPipdJX3E0w8pgxYPXOAV9wv8q8KJGmlvJopBaiRIHioWx+y1by1S
+  cUvttOvxynBMTiQbSZFYkRBk6pCTkvdPk3F65UDoSs/U5ZtBrDL0NfQ8VrTWzEmu
+  B7LTFg85Wz0uNQsQ64XF4qVhs1knQf97ZdtbzG/s3tzsUvALKoHkg+hKRdDy1NuO
+  uMTezsqSPEkO21HTjIDT5LvBYmGFZdgeo/RahpVw
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: calico-etcd
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateAuthority/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDVDCCAjygAwIBAgIUAZSWyVkKmy/xDgXl2YPGAnEfc9MwDQYJKoZIhvcNAQEL
+  BQAwMDETMBEGA1UEChMKS3ViZXJuZXRlczEZMBcGA1UEAxMQY2FsaWNvLWV0Y2Qt
+  cGVlcjAeFw0xOTEwMjgxMDQzMDBaFw0yNDEwMjYxMDQzMDBaMDAxEzARBgNVBAoT
+  Ckt1YmVybmV0ZXMxGTAXBgNVBAMTEGNhbGljby1ldGNkLXBlZXIwggEiMA0GCSqG
+  SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKMUOd5lwYRF8i6pKX/lxMNqfPXnGr/BbH
+  wJQPY7fiWPfPBn/vvaE1XdyT4A0qBmslk30/yt8oh0WaF9cdGQ8Yoepp5DH4IrTw
+  Z04JeyvHiabUD9s0z8VlZopII4uVKbhsXX7ngAtTcbw5QIBeFynaPE4jozUv7wZ5
+  GcfincXGy4991Hly1tTH/PtkFBIMZ/xnW0vf6tQOXNlt3GCKgDc3UK0z+3rtx3ec
+  JrWAnXW3DZqUx0HnjtJfzynsF1ASwXxx9Q+CRg5Fn2IaOMuRYoqIhrnd9W5efFEg
+  zc7hiAxVYZ2AtLhCncxXE51hFykollfRERzSvz3kN59DQ4GZExsrAgMBAAGjZjBk
+  MA4GA1UdDwEB/wQEAwIBBjASBgNVHRMBAf8ECDAGAQH/AgECMB0GA1UdDgQWBBQh
+  0NOdZ8f1fMCSXgH8PTtNmGzyODAfBgNVHSMEGDAWgBQh0NOdZ8f1fMCSXgH8PTtN
+  mGzyODANBgkqhkiG9w0BAQsFAAOCAQEAQ1dY+hQt61yg3HkTOOzGl4anNr9/u702
+  hheN49UlOSkCoDc1UnMjC8S8CqiMHOM1o4kp0HdcmFyz0UDPwx9/hMiuQz7rDPM3
+  qiKA7WkUnPP7vilg8B2Z5RJkDxUR/04jZitisdYqZneDWFB1vKw8CmYzwjQg1Myb
+  VDCofglX2gUcidrKOVgW+aIVkISKWW3EM65A2MHEF44u4nFdRBxnPv8ZvTfhpq1T
+  gzBTYl2VdS6cLBcu0Ltii0W3jRZmVQEsGmEqG16rsveEsZRCFYWH+yj5QxpbKOEG
+  fnttgNwqmmRDoSkCQM/ellhaIgjvAl5OfaslCNG9SLSfE/be2+ms9g==
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: calico-etcd-peer
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateAuthority/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEpAIBAAKCAQEA7MwAYtxXx9JqhpL5EfdWQm2yGP9ZYrs+NE26oaQiGQFTeJnf
+  o5ecj8g1CnodoEHkJNjw2GHCULwlUm2jq6i/jUeVbW1GjrJq6r5gg1/c8Qwo7hVv
+  mvAvaEjIXxivezeaBNV5ylJ4zXkmepCEcf9S8zvoiVlujy9YdI7cuZ7OBf4plGVK
+  vTbnv4M4JAcoOlMqL2hI2mERIZ43Xe7W3xTqAmcsKmsaG/IzRUAHjEQqPh4gQFU0
+  uVBZnqvWGl4OT0paKnOoh1Yq4jE4UEOuW0LRL6j/FUWL9MAwL4Fc13VwqbfxpUmF
+  hYPpFDgtHe0QIn9Edp0qvxC2+xZIg4yKTYrK0wIDAQABAoIBAQC6SN6A54DzBRii
+  l9rzhFXK2otCWReTsWQFN6T75qigbUeiV8L06p/TCRiZDmpiGZQGXNhUEcwRQYJG
+  71PUBmPzG/504IOiXL/5vh0lHPQueXd1nU14YT2aV6+yCDR8xcgXx20ReoHoe0eH
+  IkvfdpJmIZoU+1Mbt45p273PFRxU3xN7kSjKdARMn1Ri0VTYgwkTHcJynF5iruV9
+  gz9eEn/vfJ3jSQIYtr25SQ1DfylGU2SRXVAc8o+cPwnYtXn24Zag6Xlyu2/RW9g+
+  nNTXhSbRE3SPRDr7eHr09LmWLhuYE8LAPwc+EzvOFGSnBGTzolnlOUOc2KdkcfXG
+  mcbGpNk5AoGBAO7SJgsdAxq/nNBP5Tr6mMmFHH3HZBt+eF7PlH8/u5BaztrDJL5o
+  8rYwrXLn5sQFP8DJp0wej7HTfcQR3DzNLn82i21/XGt793skmCa4sCC6OxB9Tttw
+  qVP75NJY4tqgIoCfSpSIXj3ZWpzFNO5U6G9r/zoRw2VqCHCgS9KL4naFAoGBAP3U
+  lL2atOWZkgTZGrGhYz9IQCL/zsqcrneqI/UDb9LPWZu9lqlPODNy2fC45kfw23+c
+  U9HDMTU2rBYYnj8uhhtcdSf6XG/QtGzsPzPv2CDg8shSZQ8HSYURJfwkeO0W60OS
+  ADH3HKHp0IvENaReGFdt8Elq6ybjgeSdvBnBjNd3AoGBAJl+xCjcasRkZ1uUHlc7
+  /bt4LInC/9qT/LWjYWQwCFONqen9Br7DIUxsGO8DkdRnM0Sr1zUbZ2v57Jl6iT0i
+  +0GUQyULeNE0iinBqXEpvzopuBCvGWH9FTf/bGCt9JBj4AkfWIYC59+EtbKRJaYR
+  OJt0pEQkapvh/K62uEUI13MpAoGAc8Y2YZTi1aaKF3P+3O5DmmWV+2C6LWfxm9sa
+  s3Jx2rGAqax7v5XGiJDmHwn23vFY7IedI5voIeFh9GIeK6tIt8ogFa/34XhMEzJe
+  UY4gAj8X/Y63UXd9bRg5PxxTm7BMdnFtbVzMzn0bBeTkoqfYamhWpOYDg6VZZbEc
+  TpMdblkCgYAD3xeb4l7eyb6qEnbOqpu999NTK1Hk6iL3tLnhDikKIzBj8BsegVf2
+  wuBD1x9OfdrH2pxd1V0DLXqBD66S59csf+9wRO/pkJJEbkET+Tq/MpslCAOuhgav
+  KHAkA56U83LKNloHo4O5irqW4O2GEd8W9mYT8NDhytZ/kNz/2qxKhQ==
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubernetes
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateAuthorityKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEpAIBAAKCAQEA2/3sHqBFAGCjRaEjuN4oXxUfx4xGCcPQ8awEjtyk1M3t5kn/
+  UjCm8eu5rYl+pYzhyx/sTK5Z6ZqJKtvK2GcFwWQsjgiHMr9XnDWHcnyi2rqlW1Q6
+  JHbyOxvl2cCKfEfsHO2fuS6ZTYtaiRZBmcz7Nlueq7vIqqxLnd1+RnszTDCwkKbY
+  jIQYgBan7O4w2qXnFeOpNRDrxBM+8f0/JY/w6XFjoMxfXb1e+CrwZUr1qfWqC2dl
+  GjbHTGXu8NcXLsY2sbPQgtVI9PqDquRt02cBFczgVI7FmAAYTBfkNDfjJzQ769uN
+  VWinp9SPy4W2uiXihGMprm08E9v3L8gcNHvDIwIDAQABAoIBAQCyiFXRXPvinIqk
+  fWuCIjjdQUVzKjHExveQyatBTWsvkJfa5n6gcv9pIYakgQsYy0aLFDMu3+f0Hwfm
+  kk0CZklTczp9YgpmcsZk7UQo82Eu5X5AqhAte6KFudRFbW52AeBqcaXIITskpU0q
+  J7fBW4sbyCry8AigCger7A8In/83emICXC4kuMTCrz5/egytqIvTGTobMFxza49Z
+  rTiAMu2iAaDPzRU/6pKEWLwDXZccQbCTzEjEh1zv8K4qg10utIZjyME5AMLWE5g7
+  NcYdAIp6uF0npa27Mj6PwGG8aDCd1wYT0FRuZowvfXtNV6I5mEVHudQfODKcbR6o
+  ynoNW+RBAoGBAP77h9x0Dhjiret4cEV8s8SxN2T6ZpTOeJKQqvdaTa/l1zTlpL2+
+  WRh+TO+oN+dTS/Qkd2qhPpq83FCuktxaDTxF+kuI1HmSZQD8yULPnM8zpA46Y4Pg
+  rnhcMc8qZFyxBVOnz6g1njVpXLppMgL+HZVQFZ1rG4dC1IPTT9bz/8FzAoGBANze
+  peYm9rzHst/eKQz0oACzrtS92EAqJ9zm4MW90qTgN+35yTLzU6rWpuOPVK2e8fa4
+  bVywUlvKyA5HHGfzUToluWYpu11YLPRdxa1xGL2galcEPE7yzTs7u4aFwmd7rocG
+  B61pXLW8YrMITd7WIypJ5lAjzNdEYFFwAZ5io8uRAoGAdrVFoCXLtlw6GikdI8yV
+  qNnUb0eAYIDrc1i0r6m0B1Ma6P6MvuWSdyu9x8lqFWEbOFON4O+mxMVuUIWly76E
+  8O2nRGk0elDkgxws2tTrLS/ejd0zHV+J+nD5o3gZ92lWkIbMz4P+3uDpkcONzATg
+  YvZAyePmkgdUBvdm8Szxge8CgYEAu2P/lyRJxOMdhUhkxcQqmE3asE6d0dqyVX5h
+  CAREWnSNn0+E/8BopRJXJ8ysiF3JZo0U5EYIqi6Cy3JTzHIo4U+uW9peSBUOlwmU
+  NNI2rnQSpN9IF6dyrqXANaL4zHmoGpDoJJ229c3uY31RLBW8Yh2u1SF6os01dwKz
+  rOB9nbECgYAZjv+YCIx0ZqDVwqDGDFlMCP4ffLABbcFIM3dwPkWYpda9VS3Jv/3R
+  AkC+R5aFpW72UiyR8puibGu1Vseo6f1UqWskIzfrl6zNmCJeAVdEX/Q0608lV0AK
+  bwSJ0vFCpiw76zcGfJOEoh2n22kNA6cN1nRyE0Y85z3pzZsFYI7mPw==
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubernetes-etcd
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateAuthorityKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEpQIBAAKCAQEArTM3LMjTAVZz6BM8l+aEspcXrAnaKrN14x4nMuzoobtBhVYb
+  BGMAmWYZsFg05Y9T3EcY6mFNBxghmaJDaL2W+Rl8iZL8azDw5xuUjGoxTaYmGTLO
+  XbGlwk8A1J6YLRieajcq0fs2w0TkvPdz50sAKlC4DhmblTOAMHhpVZBaWUlxt0G1
+  Pl1rgwUSZml+RhGM/tUWkqC4/RDw/8UkG0eBmBvAd1/if46i2vDYhY2PRq/MUZku
+  /5baKYudSwRIEPgWLWMHzHK/I6XclVm+T5lHuuYPaNX0TGVAwC3clu6qmwRf+VR9
+  sQ4aX8ysyX1NAF9ijufhsfq2IfPhJqBCTGwFIQIDAQABAoIBABlTZtr+lpQYfyRN
+  Q8v2Yir3GvgGDMe3rCJEs3in2bBkgEUt/Q9cJqdHnbQCgeGbXqjUIJmNFsVVyvv7
+  FR5Isr3D80junEhURLWWe9c4Y/M1u1Zt7m0W3+UUxktQ0XGuquNfI7zGnhBZj5Tu
+  Hh2RAvotCWzOY8iiWjk8MjLXw85QSFNgc89RkBbKPS7PgtBsMez64L8LylSZ4bQ1
+  cUN/gtZq/4w29roxjraP44c27s5zEXDEsoeswsnAnRFWHr73NExc/4ZJ6S9SY5zB
+  fADP3NcKA4qjOuCF/oaMN+HPzmeQBWpQUbl2HvsahzWFCr2B0CHUxWJ0++5HFq0R
+  uw1OTFECgYEA3BjMU1UzcoX03l6PoSLa1foZ2R3hDzryU2/U1oAOeqpikZkFAhfc
+  O2BV9tCIfj73LZcZZNaG7RtoArXmGSTW8sUpfFDvBKa2NlVBYPCPQ3WfOU7GTpG+
+  6JIhKg1AGPQlsd1/jDMt6NQ07SXYz+nFrLdfh1id6h17DwmaM06P9o0CgYEAyXQE
+  FWGiTuQoOEbgoeoZWNIBvtxN7oJ0W/NItro3jIAX9xWISrj0BCc28TmkcQerzN4v
+  c+rxx7+yNTRNK8SRP/L+9s/CQNON4MbdVVKKYvlptZLQe1cydTruvVRXqaGRsOec
+  8ydhSlRxCBzq0c9yQ297+oUcMTP4CK+QzsUwneUCgYEA0Qf0Nki63c9/ahngyyax
+  M3ueROftsWtIbhnNyBJCrhlYF/N+ICjNDs9FlW0j1NK0KmZQxcZAyru2oqxi5gpo
+  4pSB/AFZn889SojZ2NlfFrCFEgZQrJoa+AKg4LFI6OonSq+UzXBl77Rqt7e0HHJn
+  PMvDPGXbRFfPYc661nOMopkCgYEApDp7Nb8RZYUksLQ/XmAM59bUa3cH5T/egjNz
+  /NsUe+rVHq4kHN5ot5YMeV0HjMm3Kd2cC8Dl+HRzYGJR4zNtQhfj+OtoLhcJG8yj
+  FXKjtIolvkuAwHxWezFe/WPrzzMTJYe78JITA1iRiQ6h9AdM3GLfTF0FnasDMnmF
+  8Lrapm0CgYEAlkSbzweid7gduTaZ3OqP2IcCfmsjS3Hj7QqXcNJOvNdP0FJbFam9
+  DjBWsxUQp65mQoHtQgG+KjREUndq+556W/qzU/PV+s9SA+ORwza4M1EtehHF0agk
+  8FXsf82Ysy6t2imiTSaxzZeL10kyqNoQh8Tn5F7QbEzbjxwH5dtnh6w=
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubernetes-etcd-peer
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateAuthorityKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEpAIBAAKCAQEA7cKyuSq9qEA/kTHJvrVraVr9eBqk0hOW4HfTqbem3ZDXVX8J
+  NTCvHcBBorhsxcka0prqPz1cnpDUsxVINVH6X/+yV2oQP8dCz99F8MU6ncsCuomU
+  A89rWxl2UHpYRhbLNqPuMc/baC+Lz4ZrDB0N3OPI3BMB4Kw/EAn6ZkdDhN+0enRi
+  YX/fTTy/47FqB3UwJv2QaXBip1Ynvk9SvzOcYg5ekS1m2VATg0taNS34UffuXjza
+  ko61AhQDAQFCBlyyvEq4kPh6ZOeBVQV6p0cfmBUD03C+I7c9DRnPKu385zlK9FK4
+  sl+VEhAZu5ZB9u38v57zMjlUnTtawxWacr0HJwIDAQABAoIBAEv16jeyagl5DVYL
+  /BKLz5dHVLese4AKdiec4OjWHd+nyMQt4/k0Zp4wsEeWeFnwWDt09uXhatfWGb5l
+  TD6MxFsrTAUVg798n+HdyXCU8pc7JtIF5l4ZRIlEZ0Jq9Azgd2grk4wihkyQ9DAH
+  F+g02Br8Q03cXLs1DKjJJ1DJ785hNILEzCzi/la4zMSzP4woqCwoxKBmOruJ0IvH
+  bCcTGcVWRpodi+bpkRCK2M7OO8GPoCuFZCzMZNqtWsy7XUg/xL5bB1nseQNqZBC+
+  YKkCRKclh1pzraMj/5FrYMChGNmFYO5Cl9pdVB3z3h21of43AF24afMZF2C24XQO
+  pE1vNvECgYEA7pq00WaNXw9UeZwGN3XYuKvrlrW3RaexY3fcHfeZsbXdNJVBGgb4
+  Z5w3DNLFQJ7BNQPqiMkDdYRcgsBpMH4V6LaiVlRfrhNmbc+LmzNcKx4dxqscxA79
+  p3LVR3x+2J02xq+ODS5MuJch+/OykquB0xoaFGQrqrtPvExS+7ep1gMCgYEA/xg+
+  WCeupyZ3oAd0XtxWZ4b96gmqWqwa39a/mUBorqKCDkYcsVGHn9iOIsROhXnOKmj/
+  si3kh9v7K1NSuBylNw6ihMC+a4jAS0K87kEkRv0Oj6NjW1h28N5udw2bjhceuubA
+  cC5NUqWHGClpX61SHOwOi6uPzCTL7Piz/h8eYw0CgYEA6L0zHwZ/Y3gamDyeu75R
+  1WCs/mbmDCWUnEewB/MakgOpb78er3qZFseD0xhMm8m/AC1/ukkI/LpNWqTAdjKm
+  wEZVdwv6AFygDwDhVlP01YIc3UrPVlahCZKzg3VmbXh8k7VuRGEjKPMSjSaaywJM
+  MlRFmBpVlcX78tooH6x5F20CgYBysVnGlQDn0lnSr8dYp0SKA53CTlozrlHe9lTq
+  +JSYgCRteoSIDRonelxdsVmElcFmPBNK72ti0jtZvXrhoK9/06qqeWakPrYGoJkF
+  nnBLIpgbaODRPzMrFTchfBLGjgqZCgrX5VmKoTXeXTAtfmX+7vuTPK3IoXq2rxNu
+  XFtzOQKBgQCWgLbsWU4q7Bg5o3WA5/0HdWROyh7RkTQwau6oeKN/r2mn2cDJyW9s
+  yYypH1FtzH0eo+90rFHajofdr35AbhL4f0qT9REqZA1BoOS7YhFh942/uFeQsTCl
+  UH1BQh0DbrvgogHRGgCVENgP9K6P6uy2x/trLqflksNztJMdOQBMaQ==
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: calico-etcd
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateAuthorityKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEpQIBAAKCAQEAyjFDneZcGERfIuqSl/5cTDanz15xq/wWx8CUD2O34lj3zwZ/
+  772hNV3ck+ANKgZrJZN9P8rfKIdFmhfXHRkPGKHqaeQx+CK08GdOCXsrx4mm1A/b
+  NM/FZWaKSCOLlSm4bF1+54ALU3G8OUCAXhcp2jxOI6M1L+8GeRnH4p3FxsuPfdR5
+  ctbUx/z7ZBQSDGf8Z1tL3+rUDlzZbdxgioA3N1CtM/t67cd3nCa1gJ11tw2alMdB
+  547SX88p7BdQEsF8cfUPgkYORZ9iGjjLkWKKiIa53fVuXnxRIM3O4YgMVWGdgLS4
+  Qp3MVxOdYRcpKJZX0REc0r895DefQ0OBmRMbKwIDAQABAoIBAQDBy2wyyNvWipnh
+  HpI5SpxulChNkwlCvdGbzdJb2ckjEwEaFfHD+K6uNvO3bJVRhWtnTbFL1ogEEXu9
+  0UHmauFUS8Uhj43xdlqU3X8niT4R97bGJRiGyuo5YYoC0Mb1xlI003xSKSEx7p5p
+  BZDEHlGIEisW71SISAKdSf+TDoPFIBybNOz0qaJP5R8TyMW4O3fsX6efDur0EFHq
+  S7ABi6PUugQtlusqH19jq/hCK0/F5OgPelJewPT9VPqOlX5V+Zpn/1ftvk/EKJwo
+  hTJNFwEhBh2m35eMc7IwJow6uJE+b++E5+PLZvc0Q2sZoDCH94Cxk8VTCAryheZV
+  a8Vy7V4RAoGBAOKBFpnYUHmzJdwR+HzjJQuA3wWld/Dtgd1OTD5Zi7Duk/RyIARx
+  GX6ubnn0ukEdmxVIb/MziC9FFk73DN/sOHcuL8x8OBmBc+jgskus7OLgKG/4NKWM
+  TvX+tF+L7XjEOsEBB+Ffiq++Dv5azM0NcewnGZkoQnme8jak6IfrryhDAoGBAOSF
+  sw1s+Z9C/j4n8p4/2uXhhOkGEqY2Z8N3wvxk++Mqm6IpEmztA2ui5Iucwv07wxF5
+  5R0Zuknb2aBj+ok1aCaCh5JmqY0PauYMDuCeQzuAxjO05kfyVva9K/K67cCslknk
+  kt8t6+Qee5UWos4Fy3y9YnBAVAt2ZbgwzGZjKSb5AoGBANgo+bi4h5SdM3RichI9
+  dA0WX8CzuVNkVpstLfYS3w1roieXApc6mGodbbFVrKqX5njZOH2QoFb8R930R4Ur
+  mneizFsJ8T/mGwgT6BPwY+Hgqraw2Q1kaba57MmCcI7gNnIa2bprw58UcpqrbOgD
+  /MSyS+uuUEJhPiaIGqIcenyhAoGBAIO0VrSXKOrUBom2Jkt0S+mPZzWRzW/EDVuH
+  i3ZBkTakmNwFxdvHYeBIGmYoa+zc45kP4q8547aroaqh1IP9ptADDLWgu3lT+G0r
+  Z+um6uLBXfnw+YNftSUxc8HKYDpafaeKt+cupTRtKRaM3DnW9ycmUzSUrpuImilk
+  3njoD5CpAoGATO8DKHlmJpHGOGBrIwE+IqZKI2X2/79qYoupdi/vv50BcMYCk9xM
+  VjyXQkBEYXmAueO6X83Uk4ZRbSsD7ZkxIfv4+3Ps9/E61OoeSiYJog3ppejG6p+l
+  zmn131oKe60+YXJJxW4Hu1VfgqcCHYQg0Ypir45pf2nsbEYeeXOazNs=
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: calico-etcd-peer
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateAuthorityKey/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIID8jCCAtqgAwIBAgIUC3ylNo7sO+XFOMIAUkKy/ZeFLhEwDQYJKoZIhvcNAQEL
+  BQAwKjETMBEGA1UEChMKS3ViZXJuZXRlczETMBEGA1UEAxMKa3ViZXJuZXRlczAe
+  Fw0xOTEwMjgxMDQyMDBaFw0yMDEwMjcxMDQyMDBaMBQxEjAQBgNVBAMTCWFwaXNl
+  cnZlcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJNBDA1/kW2kNGFk
+  WLCHSKJwtZUHsqZwHplPPCBKapmAyxgvmMshPBGEYS/RBubWP8kz9YteaGwC84ao
+  McWb3ZlevzwzuIlBaFPIbSUPTib+3rvkAwJiLAIqBnp6ELAJHiGREctQTUhgOmnB
+  XQ7Xc1o+cfLDiPZ9aoKhr7bdxi8BFRsgw8ArMvGUqfDFy8zzmD6y9mm6RaoDh1MU
+  Qq3dr3Q7/ePFCWtqQFMGUmXu3ILT3scVDuECCQMb9sWvuOgrGzjhvpYNnm0kGsEP
+  CgASw8ehcWc6l1Oki9OeQWtMczgK44zQU5y48R1kbeDXmXIz/I8qRfBdbQ0Vo8yY
+  g67hRksCAwEAAaOCASQwggEgMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggr
+  BgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUWrm0sPu3
+  i8Zw5gSdwSqfbNZVjEswHwYDVR0jBBgwFoAUDYuxZUYhRkZGdUQKQwMcP6Yw/Dsw
+  gaAGA1UdEQSBmDCBlYIJbG9jYWxob3N0ggprdWJlcm5ldGVzghJrdWJlcm5ldGVz
+  LmRlZmF1bHSCFmt1YmVybmV0ZXMuZGVmYXVsdC5zdmOCHmt1YmVybmV0ZXMuZGVm
+  YXVsdC5zdmMuY2x1c3RlcoIka3ViZXJuZXRlcy5kZWZhdWx0LnN2Yy5jbHVzdGVy
+  LmxvY2FshwR/AAABhwQKYAABMA0GCSqGSIb3DQEBCwUAA4IBAQAyZEPX1I1qVGr4
+  6bLPmgJW8k9qH4yB2cZ896lMasAT31ToHOt0UjVHW//x3YO3L32Z0FWaf1jJbDaf
+  BVEWCwKSng9z711qRSKpmyZ5LqjgzcdZAaDAXjuFzB4TjLo1bGquMI1Va2+n8ZM3
+  hgRhe/nt7hhp952JB2RddJ8AxvOtr0JJJuVu5IGBM3sMFW3oRBbSCvh6cLyGTcFD
+  uEYcfCK9XDnSnwU9l6hKheHSW0Qlo4nzIpFu36YgXsB/Eyf7wmJNmx7OlnvGBQxG
+  kjQ9Y8G4FlEKRjpawUzIGmUY0hJq7ILdNA7vqJaK0I6kHtVJ23MEcpnASyqLv7eO
+  sg6Fm8By
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: apiserver
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDnjCCAoagAwIBAgIUJ6lFb8Uj8AHJSY47GKF1IjaVN0IwDQYJKoZIhvcNAQEL
+  BQAwKjETMBEGA1UEChMKS3ViZXJuZXRlczETMBEGA1UEAxMKa3ViZXJuZXRlczAe
+  Fw0xOTEwMjgxMDQyMDBaFw0yMDEwMjcxMDQyMDBaMEAxFTATBgNVBAoTDHN5c3Rl
+  bTpub2RlczEnMCUGA1UEAxMec3lzdGVtOm5vZGU6YWlyc2xvb3AtY29udHJvbC0x
+  MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAranmaK0x9n0rw4+M5vC1
+  wDHDWcW8t3UteIPcP1dmFmbGE0UeWpGepmju1f3yf8SBCGEwZ62XTHeUHOA+SpoC
+  /EUvuQ23yS4pu6vDRQOtQGC1eiw6994hkS3iNsxTL9Nn26X74nry8BAMkjGiWA3K
+  8aapTL4E+uLE1SQAk2sPtlzVOCEuLAyURolx0mQWy6EJ9PQ2omKV3vdmOTJHoy6L
+  I5jID5birVrYgWHj0AsVBhQ15setcBY3E6KZIejumePRDFcVM01HVTERxoonmUPC
+  wwRSDNQpf/id9DGstIlsurjQMUso/vOoHwF/lR2SVvstmKAeZbGMKnKI9gq+iqtd
+  qQIDAQABo4GlMIGiMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcD
+  AQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUwD3ingyfmrE9uNKs
+  V+nd1LHe8C8wHwYDVR0jBBgwFoAUDYuxZUYhRkZGdUQKQwMcP6Yw/DswIwYDVR0R
+  BBwwGoISYWlyc2xvb3AtY29udHJvbC0xhwTAqH0VMA0GCSqGSIb3DQEBCwUAA4IB
+  AQDBzrpMMNCE5XxFfQQzV8mdmqB7IGM0OEX//k7X1u4JpWlrUPdcJwr8+jAD5zCZ
+  dYWTyefdnfSoUJhF0stsY+IzeVefWeV5CqD3qFOp7tU5NRYjPMAkSaoCnFR/9TI3
+  sHPeoKWBxWKnljGvt2vzP+NG/lECPpsxJRmt3OnvqWZGJd2nYGtnYzIwRmia0MJy
+  ow8iuoeNmsX2RIJ5pCNegKePGcoL6++fPdIugwjsy4YoPai2AmkgI1rKnhp4o0o5
+  5qN4H546slRYd/58gfwHHLcrgtt3yMmNwhzxbN51U0w0tFq13zMOlcvqZuCdva+h
+  PkqkAVXbyGkYGmGpNrcZz/ll
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubelet-genesis
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDnjCCAoagAwIBAgIUXmDpyKwWAQFglh1QVUcjyU3m0tcwDQYJKoZIhvcNAQEL
+  BQAwKjETMBEGA1UEChMKS3ViZXJuZXRlczETMBEGA1UEAxMKa3ViZXJuZXRlczAe
+  Fw0xOTEwMjgxMDQyMDBaFw0yMDEwMjcxMDQyMDBaMEAxFTATBgNVBAoTDHN5c3Rl
+  bTpub2RlczEnMCUGA1UEAxMec3lzdGVtOm5vZGU6YWlyc2xvb3AtY29udHJvbC0x
+  MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAofrvoGuQjtsvRiTn/q7v
+  y26bHUSKoN7uusxFHgHdqI36/Ejus83X+R/MQ7d7fQlaFyMjVWQBtKLH6EDvQ8v1
+  KK5ow4iF1K0WTklc5OS/6XlQfMLBYkYHB8rstiUAjq9jUk9fUTByBZwKjmAN0SKf
+  Lj8RjUhZ2n3iMG18t174GNghrvC2EkLgs314XpRpElhFREp/Fy0vgj6qqjjazi57
+  hzIrpg4wX7QAPzrLyY1UCrmcpSe4Jy+9C6Nd8pJY5t3M2TyPso26UvucYxh3IEji
+  rxtfyPFmXuEc7ienuLcJtPKmXJeaqc8i4Y2oczbAKtWJEv9vC2j1zmgVMHfC12W0
+  VwIDAQABo4GlMIGiMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcD
+  AQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUwxLxkbFRKscpqkLl
+  t2tA2z77hXIwHwYDVR0jBBgwFoAUDYuxZUYhRkZGdUQKQwMcP6Yw/DswIwYDVR0R
+  BBwwGoISYWlyc2xvb3AtY29udHJvbC0xhwTAqH0VMA0GCSqGSIb3DQEBCwUAA4IB
+  AQCvAGU2yU7x9Ut/qe2CTZhskjglwSHWIOSsjzRCt1aJU41Q6lzkub7YbFqF7sob
+  tQiTuSSEXGcC510DhaY7yyn7f313XHh69nxB3dfEhK+REqT/uAHuEfTwdoqpWiOP
+  hB5VgzaaXXMrXR0seXtVgopHqejVHtDZkP8C1MMEDuhbkRBJ5BG3zHrceSCsLlIU
+  u4796obGZdLcRt/HcM+KtZaMfciEFJqViy2G1RpjfvNKFHubdXxj+mAsDSynh+tC
+  gqeuTFOH8dsVEwKenCv2MvYxB5I/DIc8jXnehBXVtB5EAGsVrN+QkRazQ+sx6UmG
+  ubrDOBUexh/1xu7cxYM8lz9T
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubelet-airsloop-control-1
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDnjCCAoagAwIBAgIUQEJGIvYX/p/rvHrIIsPsTyHSb3owDQYJKoZIhvcNAQEL
+  BQAwKjETMBEGA1UEChMKS3ViZXJuZXRlczETMBEGA1UEAxMKa3ViZXJuZXRlczAe
+  Fw0xOTEwMjgxMDQyMDBaFw0yMDEwMjcxMDQyMDBaMEAxFTATBgNVBAoTDHN5c3Rl
+  bTpub2RlczEnMCUGA1UEAxMec3lzdGVtOm5vZGU6YWlyc2xvb3AtY29tcHV0ZS0x
+  MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxpIAL2MOG43TfjBzz7Mu
+  xcjpNdaeLOYd0acyE1XilOmtVvk0S2uWiaQAxKE4pHellH8NbYewXFoQsp04avJY
+  BzbR6TNhfxY0aqzTO0qvFhpgDR+7VIlxtfz/O78GfoSKPt1SafvxxbBsfj3CTvIG
+  U6QTykHlEX60CVu2TUcsGgB4Qb/sjk68Aai60GYT+WwHCl122eLihnBCHrw1KnCm
+  eOliNRvuKan5pHyHuyxmII4IIoDdiKL+5MIKJSSCH+t31gRnHM4T9BSz6uws3K7D
+  R68wpAUCcDaMpsmM5t9v6xkum5+19nRQa2hrPey+4BvS1nrNlVSMn9n+wzaFDUxk
+  YQIDAQABo4GlMIGiMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcD
+  AQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUAuZunnTFXDVTRo6m
+  XNRYK3Mkhi4wHwYDVR0jBBgwFoAUDYuxZUYhRkZGdUQKQwMcP6Yw/DswIwYDVR0R
+  BBwwGoISYWlyc2xvb3AtY29tcHV0ZS0xhwTAqH0WMA0GCSqGSIb3DQEBCwUAA4IB
+  AQCWNUnYxSrf9Z6lCeop4bEXWa2hL0Eg4ETHUt1p3ZcYad6b1JkiviuyIpzXZohe
+  Q6Yk4wi/6Qo0MFXWpBLWQrlN9PlGQ0vxuuhHoLh4XZk6sThG11w/1Q4UbyH5zIGq
+  usoF/tqoHjwyDAS7Fumxvcyl1LLKGS4DwxJeKRuWAzhfvoxxi0c4txnlIcSeD4CI
+  F4D9NYEinyXx53bEpnyQnERl6xOWTWPEjzgk0SF7188RhFRTj4t9aecdg1szG5te
+  uiEnmA+aXkevn7YeEYgZqgOtm+IgdZXCYgWJ6QGbstOQvlT46TIwfNP6sLKwf4Ul
+  SQ6ZnBPO9yJOH/yML6uqlWZU
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubelet-airsloop-compute-1
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDVzCCAj+gAwIBAgIUfDEOe7p0NMFACohoQSKFzBloAbgwDQYJKoZIhvcNAQEL
+  BQAwKjETMBEGA1UEChMKS3ViZXJuZXRlczETMBEGA1UEAxMKa3ViZXJuZXRlczAe
+  Fw0xOTEwMjgxMDQyMDBaFw0yMDEwMjcxMDQyMDBaMCAxHjAcBgNVBAMTFXN5c3Rl
+  bTprdWJlLXNjaGVkdWxlcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+  AL27083YGGlYwCaFKg0yDzTosk8gbjW0hHPTaXz7IcP1+EImnMsjUybDMe4+5I83
+  HiKCb2NLOrrK2yzo/4vQUS2VdntaVhaQszp/pwlo6tTEr0s6+6fUmSPwiKaxX1do
+  uRfwOe6hlljZfwONAJ2J9JkCjXATPrtCeDcBkdm7jwrO0y/6W6gHlOpsF/9T7X+0
+  mX2e3wHV7pGry4lWkwu5AzikdQ+9vBlow5/PdJuNcUzF8mELHJUbZIEV4HfOHFRr
+  o1B7fauQHK4iqpF5mDR854Kb4nUj41FlgR3fDofpfzVCAXPG7U7niyY8GI4wMejF
+  RqI9G/aNukWG4v2CmiAFkPsCAwEAAaN/MH0wDgYDVR0PAQH/BAQDAgWgMB0GA1Ud
+  JQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQW
+  BBT6nsLfMHznqGU7W1DylmNW4ebjbzAfBgNVHSMEGDAWgBQNi7FlRiFGRkZ1RApD
+  Axw/pjD8OzANBgkqhkiG9w0BAQsFAAOCAQEAXF5OSKeKMGgCFpPqxLZroH46Il7j
+  W8zwxg9JZtFmhZnAvYNZkGdth2bskQm6P81iKRVXW3Ppj90OX35XNuAUt6tFRGe2
+  E1R5YNnvvEuCXeGYTyuLuC3AunCpilVOfLgXnDZxsuqonB5DcwrZPYFhpbeRmMfY
+  OwdqnKD7ytbEut2ol6ckDI7yr71hF/dFDi433YVpW17eMNJ2q6+L3WYuzapotwjE
+  JJlZFkGv9DXLqGSouHc7FSs6AfRNoCR8bBDq1D4fTYYr9ZLG/cpAzui7jw37G+Dm
+  ybij48V3ld+uqkn9lN1K0RarRKWSeAwHYKc+EapmwGrP1my+2XncPQ6PGA==
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: scheduler
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDYDCCAkigAwIBAgIUAjc6sZhYcynlDOBvhGNcRRF3Y0gwDQYJKoZIhvcNAQEL
+  BQAwKjETMBEGA1UEChMKS3ViZXJuZXRlczETMBEGA1UEAxMKa3ViZXJuZXRlczAe
+  Fw0xOTEwMjgxMDQyMDBaFw0yMDEwMjcxMDQyMDBaMCkxJzAlBgNVBAMTHnN5c3Rl
+  bTprdWJlLWNvbnRyb2xsZXItbWFuYWdlcjCCASIwDQYJKoZIhvcNAQEBBQADggEP
+  ADCCAQoCggEBAJ+4SDfu4kamiAHvb7aR+m7GNGVKhqEmoCbeGDUHMyDKXDvVDiiW
+  7OTHQK2l9UVrbC8Fh5iEMHEdzzczCxWbsbw/8sw6G2qoOLvTPkDB0N2Jh9Vuj77S
+  MmLSTVKZ8kGvMiO4Ub/PL1gpn75M2t+dQ6RgG89L6mhNDEjPwDw/Ip4iTFZ2+EHW
+  zYBf0WVt0TfF8qMBmg/QsflivxBAlJ+riHWKTTwhrLmiu3zMz7wn8y6bapYP3VMj
+  EKwzqy108ixmMzQ2v11GCkNeFMzwzpeYk07pL27cLKXVpeDPE1kEauXRUEkFD3EJ
+  wpXqJOeM/+xF5WWHT/l0pnZARJAvCLYTscUCAwEAAaN/MH0wDgYDVR0PAQH/BAQD
+  AgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAA
+  MB0GA1UdDgQWBBQ2iOi3gpZvQMGU1xQmWAWNI/BmezAfBgNVHSMEGDAWgBQNi7Fl
+  RiFGRkZ1RApDAxw/pjD8OzANBgkqhkiG9w0BAQsFAAOCAQEAIM+b9+Bm/YO/MTlR
+  GSpzpVpARMkA3NpdT+feS5uky68Y2i9/KSVETmTeoy84PkEgCjvGvgs4RTZUGTrm
+  QrDHsqvY7k7dxSK9jaO1jI/m65QZ9E3YVbzJo7c48vSTB5Xc2PMTkWXbICqQziXB
+  pko2Awzk1nw6KyWSPbd80ma0BqMxA8Q1J8XnuF6RAjHX8Zrez4AtAm18wPlvvyVW
+  VeiknHSqsjhaNRC3DUBbBOz17z6Zj+QmQK08+smCybNRvzJC1nrHeEozFDIzsnmX
+  +a6Qlxcn5IZ//UH73xJlH5CVlcQpVDPDPzZBBWfVCa7vRGZJ125ZVugFXY+7mQa9
+  1PIdLg==
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: controller-manager
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDYDCCAkigAwIBAgIUYJ1/tOz30hvJQjc0ubTrsyeu2uQwDQYJKoZIhvcNAQEL
+  BQAwKjETMBEGA1UEChMKS3ViZXJuZXRlczETMBEGA1UEAxMKa3ViZXJuZXRlczAe
+  Fw0xOTEwMjgxMDQzMDBaFw0yMDEwMjcxMDQzMDBaMCkxFzAVBgNVBAoTDnN5c3Rl
+  bTptYXN0ZXJzMQ4wDAYDVQQDEwVhZG1pbjCCASIwDQYJKoZIhvcNAQEBBQADggEP
+  ADCCAQoCggEBANrrU4+u6s1S/aCUQc1c6q4smbmJa4MzsegWCtMTGehSJgYDQwRH
+  uuV5PVf/JKj805LjhwrdE5cjGhJeGRGNDB/uyvNJ8nMztYhftpwzBnEVHzW/bz0e
+  rmtJqvXHSGYwuvJw+CVcdNNeIGVNPBfSBjeVkriopt92Kq7cgvRwy7cLC6SBOllj
+  SLoT3/WMgZcEm3Z0RCpZZw1hOjID9WgxAmmBzscpwcKbE6qi7EPpUdcJWFajgzE5
+  qvIJQG8dsCw9oGyYyt8gMPzh73Te7ugrkcSaAfL2yNXyZ630zdgMa+vJwx8eN2+R
+  8M6Gk3lojue5E+E3zYvaWBsBYxr6hQIHgJMCAwEAAaN/MH0wDgYDVR0PAQH/BAQD
+  AgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAA
+  MB0GA1UdDgQWBBRJ/PqSpNvwvOhXvtwMpnvUJ/EkTzAfBgNVHSMEGDAWgBQNi7Fl
+  RiFGRkZ1RApDAxw/pjD8OzANBgkqhkiG9w0BAQsFAAOCAQEAcNtq9bzAhWcSca1/
+  9w9Lm0ZGcO47DBBW10mbv4fb+mjFXQ8F4XgwEk7pCG1LxMRwzp+Xoa0h67ozUFIi
+  mg9JwM5u8XtQYS6zZ8UOGVjxLpgRsE+lrqhHn89g+nZfI6zqwW7h5kaba9ORfym6
+  nnxh4F+HfHpeTi6536KoIDyh3GIiydnuuZEn/BNV/MobysFAKi4T6Wj6SecwtYyx
+  hJ4iPQ0EUygtWVMfPjGOog4Pa1LEI4kxW9jARBYhm8gbc3+W1XtRlS4aMXXFGHdI
+  aCz0S8sdnMbH8Nhu8FSK1k3CwMNKQOgJUO3oIZbwlEOnyO3ZlWwPuH7izjlAVggz
+  73lLUA==
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: admin
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDYTCCAkmgAwIBAgIUAthKPFG0tUgw4mmgZgoymPDVqZYwDQYJKoZIhvcNAQEL
+  BQAwKjETMBEGA1UEChMKS3ViZXJuZXRlczETMBEGA1UEAxMKa3ViZXJuZXRlczAe
+  Fw0xOTEwMjgxMDQzMDBaFw0yMDEwMjcxMDQzMDBaMCoxFzAVBgNVBAoTDnN5c3Rl
+  bTptYXN0ZXJzMQ8wDQYDVQQDEwZhcm1hZGEwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+  DwAwggEKAoIBAQCfjyTJe1PH9jh1fw7FgnbshIxuJWeKuEzB9yAGHHv3jT1y3OZ0
+  xxzNR0JFCdM+4XnL8OFt5IgLhUK9lRDjwatKsbXLEtwI9Ov3B7dP6D3/lxnpaQmh
+  86Uf+PDdJDH4/8eWMbatpOx+R7QKcnlIMbeKJv7PP/nITLEDi1ooMyMl+Ii15sSN
+  9YD2rqdgySDkeVC94UcYPgBjli63B3uqdqIBRBwft0Q2vv/esd7ShbmRzAuHPjwn
+  0MlpRY9uVhKIcQMsOcYYOLzlL6Yg+iI35bmoB9NrQjeRpm7+zJkcxZMn68X7cBDA
+  kbciZARhZEgFvH1szbk5BkgdI0PeocayRdM/AgMBAAGjfzB9MA4GA1UdDwEB/wQE
+  AwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIw
+  ADAdBgNVHQ4EFgQUJcPnC1MryBaV0ruPc+r5PykTeYowHwYDVR0jBBgwFoAUDYux
+  ZUYhRkZGdUQKQwMcP6Yw/DswDQYJKoZIhvcNAQELBQADggEBAIm+2BTlbzD3MQbG
+  c7v0aoglYv3jamDbsy47bjZRxJVB4xXyHvfgeyaqQmQumsrIb5JuqyyssgT4f4k2
+  /DmyHZPUfLcr7W5BQSwg0iMpK7YW+p9m3ZRNZoskHpAcymJIO7TJtXWo5UNGbNp8
+  wJGxsgJ243EO7dJiFvtR71meGZjAv9puJihYRzpmYZdvwkjEc4jchbqlywu4kBje
+  dQmvWOl+OlDMUb+2RiCjBR5VdFcKQx2ui3vkNDjYupKJfsKQX5w5NOczagfGTlrb
+  cDrFypcZ9TR7N6gk05XlJut2Lz4WwNy8KAZGJsZAfs2ac/8I3J5WmnL+XpN8BzBl
+  yz4Mw0M=
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: armada
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDUDCCAjigAwIBAgIUZpm/s3SJpERc3PDLTkIDx8KlWX0wDQYJKoZIhvcNAQEL
+  BQAwLzETMBEGA1UEChMKS3ViZXJuZXRlczEYMBYGA1UEAxMPa3ViZXJuZXRlcy1l
+  dGNkMB4XDTE5MTAyODEwNDMwMFoXDTIwMTAyNzEwNDMwMFowFDESMBAGA1UEAxMJ
+  YXBpc2VydmVyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2qYdzQFg
+  LRppj/FUOj78cckkzS6x7YRR7O5gY/sqM2HmLkO6Q8I/qgXzNU/diSgeq0MC382r
+  +YlFpY3frAEkGfZIhTwqXkbN0X4fPuVAFyzmDT37Aoj2Eh8Zg4mm8HP80r4oUxgo
+  ago/ST+tXZiCojgywJ7h+9P1dceLbbtoeMhRaWpr4foz7lwLNDcRTwU3W/tBsU5Y
+  bHQ9a+VfiYV250+nqBwXE7bFZG3tiZqBap2inoRVZkbMwGmpGi9ZoPFPOVylR37D
+  04HsQbxoq1/rVjOY0ANhxjsJT5DKu1XKSpPQ3N+OSX8rxd66kKKQgMvFSIWOe8ij
+  vZ1K6WeEvU14EQIDAQABo38wfTAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYI
+  KwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFMMLEEJD
+  HtRcCm6pcO3EwsK0+vNdMB8GA1UdIwQYMBaAFDkDKoOVk3h3o5GzzTSLTAmOMk4l
+  MA0GCSqGSIb3DQEBCwUAA4IBAQCP1FC4Ed70I9JZ6yK0eLtvZBHd8Vqk6xn/oEbq
+  nhjGfWawFRPBDOEMLh4AkbTkLu0us+F8BnuJ0O59hGd2gYQajKDFD2brkGvxU5zM
+  NW9TZVrxmNUCfE0JfxcsWQbDsAsaHYYiatPyyJMbLJFfmo/JZUEv7NG0W2U8j7N4
+  mqioHwuL8QjQ4Yvo7f2+b0fadYy2nGGWcq7yAY7hRDEf+cgW/1hunNXJqL7NxyOw
+  HIVVfKD+F8TTc9425oFU6Ez1VHGCi4vDtJvqtEtSmuyQ8Vk89qGa+xwvdiHvdTDz
+  vxJRr8h4FZXeVbV/PFHYJhDaUVMK8RunodjR98VA/byNOxKb
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: apiserver-etcd
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDTTCCAjWgAwIBAgIUSi+eRhHljlIsWSt29bON/9WMlKQwDQYJKoZIhvcNAQEL
+  BQAwLzETMBEGA1UEChMKS3ViZXJuZXRlczEYMBYGA1UEAxMPa3ViZXJuZXRlcy1l
+  dGNkMB4XDTE5MTAyODEwNDMwMFoXDTIwMTAyNzEwNDMwMFowETEPMA0GA1UEAxMG
+  YW5jaG9yMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvCKxpgZ+cgQ1
+  EL8UOSo2T09FQ/0VDL/jC1fQyLTDZ/dZxST85oIIxMMb//Kb8OR9STWrAynARIC3
+  npMaLaUX0vSM58mMSUS7RuBabvsCkUsKXYFZNkdbFwd+8zO7RE87KcVTyj1HXl1d
+  XX2t2P+Q06pgiKv9q6X9mtLdmvPdWTJerqZ2Cy27dyL4EoGSekKedu6C0Cnh+k6h
+  TNaG6hES08kdiGzLniyKLHXgZyceCtExOKMh4n+6KMh6UqyJcmH1VUoBCfkcSSMa
+  8U0GlRZ8zyOHbB4TWKeJ597gGEOXwP0F3DyBE+ZO01orW49hczLmukhw4P68+hVE
+  U6fY2QLXpQIDAQABo38wfTAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYB
+  BQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFMXqgGlAiQj4
+  zOw5bHD+TDC824iHMB8GA1UdIwQYMBaAFDkDKoOVk3h3o5GzzTSLTAmOMk4lMA0G
+  CSqGSIb3DQEBCwUAA4IBAQCyLkwQR7wFmeg6cA3vHSN6mw6t79CT+6QPA78leNG7
+  OFCen6oUch+H+uzK04VzNgBS+f6lCu4XDqLjAqX8lDHhApJ1nNfqTXuqAkClGFs7
+  8f/dEmM/m8MXEtWfWADcd3WwH1ETgpfKCJERYhzW/5s04dIfw1WO/Z62ABb93JVv
+  Ct2lKWNmf15QT/09F1+JqHstQeAv2Qnmzf4O/QZmBCU5HrDXbU99+C5jPcaX+vML
+  JdNr0h/kFrOLIhngv+SmZj5Mjw4mnN/mlykAKBbaplBVhBV9P30AQNd81NJ1wvPL
+  3ibC+ObfMFQSEPPj1Z2FabuyePWoJYuYdyzLcubPGWNn
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubernetes-etcd-anchor
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDyzCCArOgAwIBAgIUU/X9NGiPSrddEvUjQ58r4+EaAA8wDQYJKoZIhvcNAQEL
+  BQAwLzETMBEGA1UEChMKS3ViZXJuZXRlczEYMBYGA1UEAxMPa3ViZXJuZXRlcy1l
+  dGNkMB4XDTE5MTAyODEwNDMwMFoXDTIwMTAyNzEwNDMwMFowIjEgMB4GA1UEAxMX
+  a3ViZXJuZXRlcy1ldGNkLWdlbmVzaXMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+  ggEKAoIBAQDm2Z8OXjbI7NAIumne3mcz1kAc3JYx5mO7AQdxWMqzyus5IqrD2JBH
+  Cmrlm0d4fIlcqD/mzbix9AY91iegfYVCICPvRjz8GLYYqNMfFJVZGgxKtNjWXJO2
+  K4HOxYUeud8X7nH6xwhgmVUqlw1FrEP1sNhgD/ToqAig6ylrY0QpX/eqOdllDv4B
+  XSqOmdKB9M19KmlaZIPVxaxfxGYqTJBUOnFnfV2K5YF7MsPZC10X/nyG91a5DcaS
+  OH/XisfXWYt/qFCu4bi8wvVAB8AV3RYUNDhd/BpGPOA1we+Khz8slCTXIqwlu2Qu
+  vOmGxaEsPKUBTn9FRi+C5KN6p+rQoROpAgMBAAGjgeswgegwDgYDVR0PAQH/BAQD
+  AgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAA
+  MB0GA1UdDgQWBBTJmM0AaP4drzAtGQETfS5Ph/ddVzAfBgNVHSMEGDAWgBQ5AyqD
+  lZN4d6ORs800i0wJjjJOJTBpBgNVHREEYjBgghJhaXJzbG9vcC1jb250cm9sLTGC
+  CWxvY2FsaG9zdIIta3ViZXJuZXRlcy1ldGNkLmt1YmUtc3lzdGVtLnN2Yy5jbHVz
+  dGVyLmxvY2FshwTAqH0VhwR/AAABhwQKYAACMA0GCSqGSIb3DQEBCwUAA4IBAQCx
+  H9IhCLWz6SCvq/x2L+wxIL92A82x8C0q0emDYpOorNAg7KfuDBOKLnYZZun1Dx1A
+  MBeKnu4TA0eq1jrfqjwch4Jw18iSrGOGVrcttSnD72o2z4MfIGU4rnIczhCRVrrz
+  Sm4tQXJIFvQTugkBmIYSDFB1SXE5XJrwppB9G91I8y5oCUk+YO5gIAfYxFQz52kp
+  8TH4jqNIBqBLjNi4rNACc8yR2FIefYWlEazkX2Oz0b1UjH19d+Po5UDq3izvJ4Oh
+  jF/0h11FoXOEtLmuvYK7tF69IJ31G7ffjt4qbnXFSrUG5N9ZegAEj/YL4eacGu+d
+  tv65maxKGyd3k1b83Mq5
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubernetes-etcd-genesis
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIID1jCCAr6gAwIBAgIUce0Lz6y8N26PVG8i488OY2fyp98wDQYJKoZIhvcNAQEL
+  BQAwLzETMBEGA1UEChMKS3ViZXJuZXRlczEYMBYGA1UEAxMPa3ViZXJuZXRlcy1l
+  dGNkMB4XDTE5MTAyODEwNDMwMFoXDTIwMTAyNzEwNDMwMFowLTErMCkGA1UEAxMi
+  a3ViZXJuZXRlcy1ldGNkLWFpcnNsb29wLWNvbnRyb2wtMTCCASIwDQYJKoZIhvcN
+  AQEBBQADggEPADCCAQoCggEBAMk5jvnNyg4PMs2itE7ol5mCWhTJaNQANJQcJkj0
+  3DjFR9R+WOiSIA2DEEzasfc0uGhdHvCAQy4w+PHgy03XUY2ldn7o1udF81NAUi6W
+  5b8io/yyzZ5ndFufsJoFnkkPsWqdLlGMWGUPgBHSj76NjfQ09bbB4dL29l6EUGHT
+  /vsjBtsO8rEttPSdjteVKT68d3rI8pPmx8AdDuXAB4ofxoQHv7ShfR0zAEe9MgRY
+  l1JxKW7zz8PqQGQxTXj7KoasBSlwtNDKdgrxDVuSE28qmapMqC1yjrQRpcGMSEbI
+  vaCqThwCuSVMtPO7WjA+qU2QI9woilKrhhc4Mzzvh2n/kQcCAwEAAaOB6zCB6DAO
+  BgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwG
+  A1UdEwEB/wQCMAAwHQYDVR0OBBYEFEUJAfDQ0QS7CBp9Dce0nbFJrD/PMB8GA1Ud
+  IwQYMBaAFDkDKoOVk3h3o5GzzTSLTAmOMk4lMGkGA1UdEQRiMGCCEmFpcnNsb29w
+  LWNvbnRyb2wtMYIJbG9jYWxob3N0gi1rdWJlcm5ldGVzLWV0Y2Qua3ViZS1zeXN0
+  ZW0uc3ZjLmNsdXN0ZXIubG9jYWyHBMCofRWHBH8AAAGHBApgAAIwDQYJKoZIhvcN
+  AQELBQADggEBAI6JyDVH2dkJSGaPTP6nubENHsbdJdwBvVtfe56SZ4XSmiAKoNuM
+  rjL5it6FTGdN9ed8d2zCt3lqdk9xzibx+icOqUiEw8tLzhqjnkdRkeag1WL0sAH4
+  gbYy+3HPTfLFBoOZInoLbS3Y6rp41hUzsJuQXVFTfeJnPDZHnizzHSbd5wHBnz2a
+  h1hyrxo0h4d/aLXPImUxf5oHwrjtAepjkPwZKW3qTpCzcVbYDpGERzmnh+tivRDV
+  jnQogPhSd0rWBK5phHmjdAlaYoryy/Uo/uAvPev7Sm1dfWoUTw8ge/i6KcnFK3ei
+  7n6Xs5/4z/2vyQcY7kM0Hrz5P3BO4GpBOBg=
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubernetes-etcd-airsloop-control-1
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIID1TCCAr2gAwIBAgIUA6PUgPIOjFB/7E4sv6GxTx4SbyEwDQYJKoZIhvcNAQEL
+  BQAwNDETMBEGA1UEChMKS3ViZXJuZXRlczEdMBsGA1UEAxMUa3ViZXJuZXRlcy1l
+  dGNkLXBlZXIwHhcNMTkxMDI4MTA0MzAwWhcNMjAxMDI3MTA0MzAwWjAnMSUwIwYD
+  VQQDExxrdWJlcm5ldGVzLWV0Y2QtZ2VuZXNpcy1wZWVyMIIBIjANBgkqhkiG9w0B
+  AQEFAAOCAQ8AMIIBCgKCAQEA4G0wclLTM6m/sGssDBBnMT+CUJf94W5SvUef5PQa
+  lmYW9xQMfkqpUBnvAFkKlqC2UyCOrYZAkcP7tvorGf+YasZHwxsR06oz0L/T+XHe
+  fDglNEf61mlnSmsIqqkM0B0Fbrezk14eWt+7BlNsYpJ/bi6Pdd55hlaX+YQ1JM71
+  mqPZJeSlUIy0aDdIklI6a2c3tfO02YuOwqkhmS8B7SoURmiapmyVZg4Zrgmdin9t
+  3LQ+6d//+2RyZmpG+fggDiRfep9D3rD12G0vQOCYdrutRY94fRhuYI5J1Dhu2ruI
+  jG1WzwgM20LapMbJDv63mwOEOJC0EcQLl7T6KuiHDbnULwIDAQABo4HrMIHoMA4G
+  A1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYD
+  VR0TAQH/BAIwADAdBgNVHQ4EFgQU9x2OJA8NE5wQ32zpgmwVkFxKHMIwHwYDVR0j
+  BBgwFoAUCtG0t+AD+7F+Fun10OPOF/GTq6wwaQYDVR0RBGIwYIISYWlyc2xvb3At
+  Y29udHJvbC0xgglsb2NhbGhvc3SCLWt1YmVybmV0ZXMtZXRjZC5rdWJlLXN5c3Rl
+  bS5zdmMuY2x1c3Rlci5sb2NhbIcEwKh9FYcEfwAAAYcECmAAAjANBgkqhkiG9w0B
+  AQsFAAOCAQEAg800Q1jq99nCSFtgIhYzHF1Mj/ROGc+N3ePHh7i1Fmwv2tEDP64w
+  jEcvywJY3kg2C52auWOYaY0+ARcPFWVOOmJzrnUfKhtWB4LVf1dLj05f7drDdbvh
+  bqzfYEEG9RqX/AvuIq/9+1ufn8nsEgyg726RwULVNOJm5MuO+Nz+vj33ObYxLFPg
+  ngxPmcCPMWnFJx1NqrYo4uB0K9vJpeVsAu6J+4toXsEN35S3gdqzyk/BNxNR3ilK
+  d0/vfJldneKjlT7/Z8L1W5drRkxhLdwueCXz/4VamsdYxL6jJKdD7OAsTDupQX/1
+  2MRof5AUynjRzNYyApPJKvsLcozW3Y/YBg==
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubernetes-etcd-genesis-peer
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIID3zCCAsegAwIBAgITZcJElgerlRjDC74/RRVr6NUS3DANBgkqhkiG9w0BAQsF
+  ADA0MRMwEQYDVQQKEwpLdWJlcm5ldGVzMR0wGwYDVQQDExRrdWJlcm5ldGVzLWV0
+  Y2QtcGVlcjAeFw0xOTEwMjgxMDQzMDBaFw0yMDEwMjcxMDQzMDBaMDIxMDAuBgNV
+  BAMTJ2t1YmVybmV0ZXMtZXRjZC1haXJzbG9vcC1jb250cm9sLTEtcGVlcjCCASIw
+  DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKdphnGJx4nu06KMF3o/NA1xtb7u
+  8rvy1DCdGbxluGLvMtndVIcvRMjZJmEabVyC0JBP+heU5P+onQ/aKIg1lVjLjZxd
+  AT4E7t81qNN7cnAZP9q1m1pkZRiNxi1AAUBWlM++ssyf8jEIPEOFpVJB3YCBv3Pz
+  g6i2f7qUJ1nAQz8xaGMHcJhX4E7VY5i1rO7d0q15nt8zfG9zGBs5p0QunxOT2F4x
+  6Q4IPtNP17GfM2sb4zc+2NvYr6fLYQ5B20yJpGtlg0dbzYy0geRmP+xagEUxyIjD
+  IINh69TzhfhbHP3O8W8g4fSvumLBB5W78g8S8y6E9I2DfsPajLNPcY/WBh8CAwEA
+  AaOB6zCB6DAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsG
+  AQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFCofixwAJdWBbCsndvNWPami
+  MOvxMB8GA1UdIwQYMBaAFArRtLfgA/uxfhbp9dDjzhfxk6usMGkGA1UdEQRiMGCC
+  EmFpcnNsb29wLWNvbnRyb2wtMYIJbG9jYWxob3N0gi1rdWJlcm5ldGVzLWV0Y2Qu
+  a3ViZS1zeXN0ZW0uc3ZjLmNsdXN0ZXIubG9jYWyHBMCofRWHBH8AAAGHBApgAAIw
+  DQYJKoZIhvcNAQELBQADggEBAE2GbbUs91siaX5fKcwxy3MeYEGjBz97yOznjJEH
+  VCsQbTI+a+S1GDdapVcywa1rkcM70FoAnyTK0o5V6ALekifAUqa/XgV4Xo8DKWgf
+  c7jzuHQjiytL3SCfR2hsWWJ8nJ3mEy7nsPsKpFyYjIQp6XwMJITza0vDNN/9zccO
+  pJBvcwWAWavgLyfGvMQCEhgYGY+3p6pV1R43dAUVSuEpW/SB32dynFzN38dK7mVW
+  3nFi05HwTv3/+bdJez7b7ddOJ1Vffe3rE+t2EJ9sESpUssiI2l7QxOMDbWPTyGJE
+  +L4EDGDU/y4147CnF78WltlLUhbsi4nsabV9yhxqaz6qXXg=
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubernetes-etcd-airsloop-control-1-peer
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDSTCCAjGgAwIBAgIUXJ0wgsaZ24i+9s69rTeuGJxTfNIwDQYJKoZIhvcNAQEL
+  BQAwKzETMBEGA1UEChMKS3ViZXJuZXRlczEUMBIGA1UEAxMLY2FsaWNvLWV0Y2Qw
+  HhcNMTkxMDI4MTA0MzAwWhcNMjAxMDI3MTA0MzAwWjARMQ8wDQYDVQQDEwZhbmNo
+  b3IwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCulsfsytbMumEDUJHL
+  +/yfWwtpVZaCiOIXJHz2dmpSJYhb5Uf52Ck3GOoEmFG5cD26AcgJiaY+3ceKDg3C
+  EwH5enoPn58VSq7KMzcSLlmBW72G/8AKdsNb+7AKa5XcYSm6q5fctRNGskkQjXX6
+  YzdM81GJG8plPWOhyGJj1G+/2umB1qEfX7CYdjdhEnAe/fz/pDXILxswIsF7lVyV
+  LYSF8dk/DwFEm+453KUDNFrtAM7QGDhvwGZTUnTmwR+tsEE3aaDL7FHox4aVH+RA
+  0P0NbS8CytuuC1hfoFMCWXIKZVKNphX9vcz0z5fFL2Gn7GEBkheR/MpzQmJoq61O
+  Uv4VAgMBAAGjfzB9MA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcD
+  AQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUakj3bOkF7wnjCbv7
+  oVGFFhBYnmEwHwYDVR0jBBgwFoAUPRpueZaHU9hDmILPEjAAF4h9JBkwDQYJKoZI
+  hvcNAQELBQADggEBABbOVE9ukz9rxC/pkq1hQZ6/VIw8jmP5hrZ9y+JEYExVPa9n
+  IXV2pVvL2rJAEHCP5v78skUEA03V5UX2QnBfsjpVesSTpEHCJUj9pOTU2WPs312B
+  WMvyd34UT0Ml7yL2ZmUQBKPUK3f0YYikhBNarsKDEaaXHCGdheLNplW1cgplFP++
+  UMIPFO3XnLfbq5pSEQSb+DRaFghsA9eaF/KmQgPw62voQkEL/AQUPmq4PRAhUtsL
+  DRDsiTXTo1WcwIBTIWiQxBAB1pQ7BTKDBUMwNEtmgp/Yl0lABoNEtgEMZblCDJw4
+  9Vs8Ld0BgNx1Qrthk3v1nPb654iiiuJYXGzyHxU=
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: calico-etcd-anchor
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDnzCCAoegAwIBAgIULARYAu7pJWjHL4x6gk5sDrtwppwwDQYJKoZIhvcNAQEL
+  BQAwKzETMBEGA1UEChMKS3ViZXJuZXRlczEUMBIGA1UEAxMLY2FsaWNvLWV0Y2Qw
+  HhcNMTkxMDI4MTA0MzAwWhcNMjAxMDI3MTA0MzAwWjApMScwJQYDVQQDEx5jYWxp
+  Y28tZXRjZC1haXJzbG9vcC1jb250cm9sLTEwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+  DwAwggEKAoIBAQClf/FAwIpTehokw4UpRV/s0UCqGgMbGToDLR50ZW5KXgPLLxBJ
+  pEKZ0P+UnMK8o4H+LUji18jtWRikXWOQTLQrkf76T4Mpc1Ny9AgchnOnIN7gwjuO
+  Kmr9jTgBjUnB08NpNn/XdORvgRaJ7ftcEiLzesL39yVc3JK2lty1XD2wyhhKTrIf
+  ZJY19wYWkudssEZRhiHue8Fya3fjfytZbB7dk23Rmop/qOFGxuND6E1atzhkYluf
+  QmQDfEinOps1rCVSy4bq6k87TDH2zSkAFZyi+Op21CYT+GcqxzrRQfJncVe5H+dE
+  YOswiMNTByBSWYZp32Qhj+aJWrNUf7F6O9rXAgMBAAGjgbwwgbkwDgYDVR0PAQH/
+  BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8E
+  AjAAMB0GA1UdDgQWBBRDkCRTMhCOrstdVuMYIDVb5s3wBzAfBgNVHSMEGDAWgBQ9
+  Gm55lodT2EOYgs8SMAAXiH0kGTA6BgNVHREEMzAxghJhaXJzbG9vcC1jb250cm9s
+  LTGCCWxvY2FsaG9zdIcEwKh9FYcEfwAAAYcECmDoiDANBgkqhkiG9w0BAQsFAAOC
+  AQEArI/kN+QmDFpuCZ4gBC336ltDW+Sy/0qr4uJxJDJ8+HDIHehg7XnEH77IZC+N
+  TiToVhkIfiRwv5xZ8svVNhHeZ4ahs8qWCUfN0ORO8Vqtmqm/FdPlawI2bkbtewDt
+  9GXz7Bf8UG8HNs+pwbuA5UXhiZBNmaALet4LFLCNNuwDdw8D2ZO2CCfHFrDBqqr+
+  tdYIebQhr78CN3CojYwPS+pAyEmjCCoAnAPR5EFRfzHtLZkowFqoDqVc7ymLe6Na
+  THbKHpR2UfiHaW8j/Q3AzZcUhqlCjraMi8+yamYbI2CgFGXUZFeLoCpozIiHyOjq
+  +SXzFcIT2CnNDkKagpTvJt8yIQ==
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: calico-etcd-airsloop-control-1
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDTzCCAjegAwIBAgIUFlLhVEj9OYMBPsRP7bBsYUBVirkwDQYJKoZIhvcNAQEL
+  BQAwKzETMBEGA1UEChMKS3ViZXJuZXRlczEUMBIGA1UEAxMLY2FsaWNvLWV0Y2Qw
+  HhcNMTkxMDI4MTA0MzAwWhcNMjAxMDI3MTA0MzAwWjAXMRUwEwYDVQQDEwxjYWxj
+  aWNvLW5vZGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDfBhjJpxP0
+  QoTAPruG+XU5jGKyGEqrG3yPN9LUFzJ/9+4iXZ+Ca1Ev8E1NTyxWvbgzvelIHnZv
+  GLCKDlqhOunSr1sC1GLyRuyWgwqQjPtNLcceNXbmbX4/m+BSnBLNtRbaWzn5myPb
+  n8VGrUktNCiAzwd17WrZDqHQRdJkG51G5Yrqed1i8ILmTeor3jtvikJnFMusJGpW
+  qDoXSIs98fHFFEi1g/02jJ/NTOG+Cf7W39aYyYj8tSM7yJ03KXRyYF+b/dC44gKU
+  sdJ3bgWm+oSBAPY33U2jxkBaDkHFWwM6+gQkyMuDGsSKJxfGuKgFsiXvBXjOE2hf
+  JzD54PFYjk97AgMBAAGjfzB9MA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggr
+  BgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUAg5QQa+q
+  MmRxJ4SgldLNEoPfO6YwHwYDVR0jBBgwFoAUPRpueZaHU9hDmILPEjAAF4h9JBkw
+  DQYJKoZIhvcNAQELBQADggEBAA/WyxVfUrRVuZ6UWe0gnd95EaPes6rFjNpCdl+R
+  TX+L+1zz3TocOQ5eDC222u31eUGtTaKORkVCZfX/gjkvebnfzUCUswkAv6IjOSsU
+  RI1pjovJoxHA+ftnC7I1q2ckLXMFZTnnOGa7joEZeL1UBgQCj97GIULcMPwtQImX
+  WbRixR9WypJXLS+mlep2bjTDwGf1MpXY8ERgu6jSwHCDyw4zdD6TpmaVcJP11Ttn
+  l/P8e4baq44r8vXDUuul9B0xO2JtpwEn9bQLCKqFiuX6GprXZeMSUpaVWnEtGpRC
+  wsQgdO56c5nX1w1qdVWGS/eXwkG00HQteWY+7e1dtQKvDbs=
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: calico-node
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDqTCCApGgAwIBAgIUKr2hulrnDbH3RpqRJkuvACH5Ma8wDQYJKoZIhvcNAQEL
+  BQAwMDETMBEGA1UEChMKS3ViZXJuZXRlczEZMBcGA1UEAxMQY2FsaWNvLWV0Y2Qt
+  cGVlcjAeFw0xOTEwMjgxMDQzMDBaFw0yMDEwMjcxMDQzMDBaMC4xLDAqBgNVBAMT
+  I2NhbGljby1ldGNkLWFpcnNsb29wLWNvbnRyb2wtMS1wZWVyMIIBIjANBgkqhkiG
+  9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw/87PXpmn8XS5aLcZLezTIziHjSb5nOFL3Xo
+  uDwGaXXUvkRS6d0dz+MJt1Hxt/bWrY8w+3cuLn3jnlFqw9NuGVOPfLHmWWTLj0mB
+  bK7dSwpoETHtVyyp8l+pL5mFT0JRTZ2YHHf9vDlNfrsabofsenlajHO1zwPCnjyb
+  vsDHohdsORo/W6fxypPaDW18X+IB+54/FNTZyn+uUWPpRYtTQ07PSu5eyBpGfuML
+  Z9IkoHiTCIVxeIqjTMCadZ2UXMg7dVJPb70DdabB71te7SmZs6S+YtjTIV3qMLtD
+  HPRXA6aGHlK/X4O60EXKBdQb7gGCMneNQwp7YSGbwibbU/KCSwIDAQABo4G8MIG5
+  MA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIw
+  DAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUSVNopuyCXKzLeTqjhhcdmwqGMU4wHwYD
+  VR0jBBgwFoAUIdDTnWfH9XzAkl4B/D07TZhs8jgwOgYDVR0RBDMwMYISYWlyc2xv
+  b3AtY29udHJvbC0xgglsb2NhbGhvc3SHBMCofRWHBH8AAAGHBApg6IgwDQYJKoZI
+  hvcNAQELBQADggEBAFR9Y5nbAqura5jCYdD9oZRpaYnnuivRMpeJ2nSMJ3L2xHjK
+  5yeXiFTJYAItyURbzuzsIgGK45ItWbTY62CZREcP4JJFXs+BsQEbpjcpvm1Mdor3
+  ljHQ6yA2MCJPaAfztpE8tzmCj4yyOE3BzrkmhpH4W4IHOv7uAuiiNO1IWYo+GuSI
+  W9QB7M9BuTVEensqvkDxuL5sN8Atd6VLEHsX9AhghlCYdQvHy8H8UBA62Zi5Tvsc
+  kDqgkDF5ioYChu3KT2OSgnAy/V4O0GEmIKBCWpRQdyDE0tJiXSyWgF/0m3qpxqFa
+  rn/V+PCeBT++MdBRUSkQYXMOgEhB+bq8GpevDps=
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: calico-etcd-airsloop-control-1-peer
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN CERTIFICATE-----
+  MIIDWTCCAkGgAwIBAgIUf/1KJi/T8ldcUP+Vf2VUk+0bndMwDQYJKoZIhvcNAQEL
+  BQAwMDETMBEGA1UEChMKS3ViZXJuZXRlczEZMBcGA1UEAxMQY2FsaWNvLWV0Y2Qt
+  cGVlcjAeFw0xOTEwMjgxMDQzMDBaFw0yMDEwMjcxMDQzMDBaMBwxGjAYBgNVBAMT
+  EWNhbGNpY28tbm9kZS1wZWVyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+  AQEAn4K6CUNe8V+OA742aVJlvla1fms3IvcvrF63ap0pNcOWEQJ4j7gPDMTzdmv7
+  tT0xF1kfTUxhGiFriO0Rmq4eP2kW+5YZEj3HdzHNLjd95Ka8L808a4he88W/of5v
+  v+1XtGnClpZERuJ29IFm+AVyyVNp7tCY1pX7n5GZUncGZTj6FXbRfPIIKG3PsMap
+  CiR4pCTMSfNPUzAeTivw6m+q5JnmN2BuA/K5pdNSQTn3VaA2dtalBNDSZsermSqS
+  zRs9BTPoUR5wQUGa/noyyiVbMCfrYREu0xER6DE/Q+nI0ZFDYTz9JWNRvTnOmBy1
+  009lR317sdpUY44hsUpVZU7HZQIDAQABo38wfTAOBgNVHQ8BAf8EBAMCBaAwHQYD
+  VR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0O
+  BBYEFKtiXN7qNK2SxZl2kINSAaoqhKe6MB8GA1UdIwQYMBaAFCHQ051nx/V8wJJe
+  Afw9O02YbPI4MA0GCSqGSIb3DQEBCwUAA4IBAQA/SU7whJLmWun1uUxvjHtyDKf5
+  tReUkYCTVgQFC1vRLJEDm8dfW1rByPmJ4F5dHZt1caYSwMvReUKgLkyyCJz2hnJN
+  gq9+PESftJUcGYnq+kOT1/1TolzdahEK8BgfWVnESYsVN8OeWDb38WB+skWhzIun
+  IJRHUF0ez832Nu7PV7/ujX/ZCWJzarAG6ysfNtPTBYCUofWFVDjsLUBUwgUcc7Am
+  QF225wZTLC8HQQHRVBUvJdWHpUerenry6tMoWlXIH1jgrG6RZh1PLjJEN4onv7kW
+  /Xl1VG2YfaVNpdpxPRb/p4RXm6oKMOvEaXpG3s/agOnNhpWPI8c8ZFWpEdZY
+  -----END CERTIFICATE-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: calico-node-peer
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/Certificate/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEowIBAAKCAQEAk0EMDX+RbaQ0YWRYsIdIonC1lQeypnAemU88IEpqmYDLGC+Y
+  yyE8EYRhL9EG5tY/yTP1i15obALzhqgxxZvdmV6/PDO4iUFoU8htJQ9OJv7eu+QD
+  AmIsAioGenoQsAkeIZERy1BNSGA6acFdDtdzWj5x8sOI9n1qgqGvtt3GLwEVGyDD
+  wCsy8ZSp8MXLzPOYPrL2abpFqgOHUxRCrd2vdDv948UJa2pAUwZSZe7cgtPexxUO
+  4QIJAxv2xa+46CsbOOG+lg2ebSQawQ8KABLDx6FxZzqXU6SL055Ba0xzOArjjNBT
+  nLjxHWRt4NeZcjP8jypF8F1tDRWjzJiDruFGSwIDAQABAoIBAAkprQRSAcyewRum
+  UNZ7NIvXE5V4aydsJptHkOg5eTSgDQMuQwWwxboZUKrXCOToRAPTFd5cO4ctD9Y7
+  NQ2kyz815BRs63iu9zzvZcs+jpBin511bLKDRVXFI64PVmZ9ysAv9Ll//68XPctC
+  2vWHdogRBqoifK1J1IzYXsS0PBbElE+gp9ZqXLgjm2GK5GGslSDBfU/9dQcLbYUL
+  5rgyknVfKecC2kj06oL8nnva5XscKcbl+yNVI0OGoJJr4zNqUrfw/ghJ5VfK3HuB
+  aQuNqSfca0OiPwy5PhzwVBzXEsZOT5QHSiISgJ4sATZ3v932R6pwk3ZO5nUMRhcf
+  8AJGYlECgYEAw/9Q1npYEyVmakZbFc1Ur1fFR42b7m3MRZPF62wBGGWTIfV67OaD
+  0ImmEtiSlkqO2W1OR6hMuckYMBn/tXza4vTe1LiDbI2C3iHfR6z4JwqPS96JJke0
+  jRdIXQR0m8z44KNgE+sI9urJWPgXDBJDmZLjWWYqXVe65Tzk/fovdnUCgYEAwFWh
+  gZuQYo9EgGDTjSidmplsnI/cPJY1Nmr4urAj/OIcyfdIJZIiG2wFIYP7pCHRdSaR
+  Ci8GAHbJ4/vi4rGm97cpFTnTKduZb3J/MuJQbfASU7vSy6JUgm2WO/ampj2tk8b7
+  meFbcAxmIzFCundIS9a4zjny+19OPkkDjZotsb8CgYAcARr3yjtTYQClJrBVCSWU
+  eCID+0PQaXfKaTbaUHBHoBvJul16A+XJoiFMiA1J1BVdE7Ufn/h2gzklhlF3CQPt
+  cbd1BXghxoZwXr6cayZ5zZRz7rQB+DTgA/ee8sgGit70meNcdTSusxVZ1PjWDLYD
+  92zslSBwfdyCbJT7hQfLEQKBgQCnO82qfDEXAat2VLqdSmt/OVgO6ad9pr2uC2Uq
+  Lm2cPJ77nV/GC0JMxafQdIohNKaDTn1edXSqgp8Y9LNamU2spj26jwTkqGTJWqzu
+  +YkljlDhLbckCImivtaaXOSaN5btn161dhWjX6SPhQ2YRI9AIfuelRSJLV1DGwlT
+  3nNM0QKBgFZEMxLu8zbIDvgl++TOx8ySE2dQfKMJOIaQyPYbRqqR1bGNVHhLQzrk
+  l7Rl8uUK61hTnPtPR9ajQ3t2S0MZDJpCn0qdSUckKy0E1JTuPlFBiu6FRRLXRvo6
+  iT8AZYGJvSGD7KdS9cj+fTzqnv8qL5roEYmc4dRVD8s+qDDnwtZs
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: apiserver
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEowIBAAKCAQEAranmaK0x9n0rw4+M5vC1wDHDWcW8t3UteIPcP1dmFmbGE0Ue
+  WpGepmju1f3yf8SBCGEwZ62XTHeUHOA+SpoC/EUvuQ23yS4pu6vDRQOtQGC1eiw6
+  994hkS3iNsxTL9Nn26X74nry8BAMkjGiWA3K8aapTL4E+uLE1SQAk2sPtlzVOCEu
+  LAyURolx0mQWy6EJ9PQ2omKV3vdmOTJHoy6LI5jID5birVrYgWHj0AsVBhQ15set
+  cBY3E6KZIejumePRDFcVM01HVTERxoonmUPCwwRSDNQpf/id9DGstIlsurjQMUso
+  /vOoHwF/lR2SVvstmKAeZbGMKnKI9gq+iqtdqQIDAQABAoIBABWfcfDWn8HxE+Hl
+  ncWjcv3bNFeZJ0YwcNjwkhvQ5gUkBsWfdYgRWY+ewR4j4G3IKcjBUSWXl58NxINT
+  6G2hf32pn6eK7bc+6DNVz5poOsopQG9V0oHKRqOs8t2f0zvBNs1CfXpVlKoPVYFe
+  bLhJ/1rXRX0oq7YRRjDDqs6wJeSutdRS5S48+cih3h5ShTblymDcKo+eE0SCbmuR
+  JHU+/VKf5IfJ50bRvwRSH0QDrTvcK0kRXUJS8RPEHwYklXt4aS3SwKZDohf0O7r4
+  kcRwWMW7nJVCWoY2BTR3+hK8ltm8nK5y0DNGf1abvS/QBXWTfZw/HHaMmuECFgJI
+  ubE/B4ECgYEAy98PuBC6RxbeqBiDH8JOGc3I++WmlC6IQ13YPNsh0ujjgksNp39Q
+  n54YVuMHGIpkldWQgOroLs31HfD9O66O+ab4fMZZs5AbUf/75UWTG15R4fdFYIpj
+  MPaWIvs/LZ2nhQKzTHcYrqZcj/t7YODL5v8EMzarm+6j1GV3B1/oCGMCgYEA2hGE
+  HLjemU7s1cRmYCcYq619MVUPPdfpBU3QAIqzysBRKGm69GF1dW9McyIhkBL7svo6
+  /bjgHyblHIAeCEA6l/QN0+BEofaUoS5TocsXJDDbhqUm4srmYp9TzaeDK1avNcCt
+  /XgVnzWJNYMiBx8QjmOACaAujWwXRP4LTvLFkYMCgYB4iinEHffVonsBjoSw2XTO
+  IvMrpMwKHz0n/6ujx7jG+DXUSsYG++rShWpErTT72I/CW6R15O5lBhdgnaVMjVgx
+  2fxf4fMVjSXqJN1t4OYqr2jgnxAhFZGyWInKoxzmvqlWppMWqfApC2n9I6b+T8uf
+  h7aXBUMQDlhFc7yd2qHZmwKBgF/EI32tnmw7Yfz69G6znL0AQqOglEH3iOkAZCFo
+  yE55KOsTi7v49OluyGcjjRPFkm3mQHPedeaYYTOj/AxpkJHc5xmuOtXaASnLu4Sp
+  OO922WGHM82Th5u2FsqRDyTAO8/iX0aaLvytOSWcAhyYgt/VSIxxoSAQYSO2YWb5
+  bNRbAoGBAMomsmrqcM/2Dlm8HfJACRVYiqnV95haT64yNgs+0BPRVTaqQ2l094cT
+  KIpiZFL+BNVZQhRRpljXzrm6XMuzfrPKgt80jq0LCidkeWUOdb4hayABICq9KnIQ
+  lNLtzQ11hVQmi4uDBrGgHWLIbPnc0HKaSf5HA71IxOQ1RMi8RDkK
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubelet-genesis
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEpAIBAAKCAQEAofrvoGuQjtsvRiTn/q7vy26bHUSKoN7uusxFHgHdqI36/Eju
+  s83X+R/MQ7d7fQlaFyMjVWQBtKLH6EDvQ8v1KK5ow4iF1K0WTklc5OS/6XlQfMLB
+  YkYHB8rstiUAjq9jUk9fUTByBZwKjmAN0SKfLj8RjUhZ2n3iMG18t174GNghrvC2
+  EkLgs314XpRpElhFREp/Fy0vgj6qqjjazi57hzIrpg4wX7QAPzrLyY1UCrmcpSe4
+  Jy+9C6Nd8pJY5t3M2TyPso26UvucYxh3IEjirxtfyPFmXuEc7ienuLcJtPKmXJea
+  qc8i4Y2oczbAKtWJEv9vC2j1zmgVMHfC12W0VwIDAQABAoIBAQCFvgvdCPNzAMcn
+  w5FKWGbmMY0hvVY5Pdkfo0nuXNwIMDLr28w76dpJeFfQEc+EjhQ0xm6GMuy1mTI2
+  MmdcMytZS6h0ymS2FbQ1L53j4HwU6nXqjWPfILLtXD/WpPaw2V/ItoCdKML8nrqY
+  k/bUlyGXrbtwTCzkmswH8F7piSCQYZQZrOkL+0yX1GzNuMlBlNiNz8l8aL0e0nYb
+  o9QRYgEO96P8b/UNiGQmD0hLfL0GpGeFTWnpETwbhUSeFDvwz+kK2EPGgBtJnqx4
+  buJeOPdIIPNwQTVti6l0WY+O3ncANURAkpoPThCUZdvrAjSlIuwjcS9QLDotgIAv
+  kM6XmgQBAoGBAM9cceYqL/7JmUCmqZeqHc8dI7PXx2fFuGp5B30SqIRraNcaU28V
+  S7B34cNylUrXtJl1pLzMAy8dQreet+HlWM9e8UPdHm4TFEPuIX33jcfUlWB00P0V
+  I7I9SyVDUNpLDphaWbnxZCxU4hdlcmg4KaXB9A6NmWXdxRzgEKJecgoRAoGBAMf5
+  eTKlcRT+LEHZ9BhvgQlxSwRqTlht4SMPAegnXBguvqSv9/wxcLSv8Rx/0f8xC3SH
+  0v67VFhuJNmiARj4E8ebl/tM3OVCM/7gUm/wIhl8ZVFzq1wy3/nnzTNkrhFLGcbn
+  Vm2nuf0y8PowmHEx/gLGiRfRZiVkLBB13fn6za/nAoGAWmFrz6txsfcC0jgSUWW3
+  im+kAR467tMyN047YluAkf8S+jaiSReaHveRspO92Jo+QGkTfaradG2nh8spUM+b
+  Lv+t3yuAuO+d9KHVfUcqSAAzf5BLCxRss6Kdn0dA9XSjjupKk45QYDY7OYFhJWXd
+  WT85diJnywunf5d2CJ9ry1ECgYEAkRcipmp/F5orBkRa5HfSicVXhoaS/XoLxWIY
+  IhacrTcNP3QlWyeL/K1DJUhgVuWAyDXcEtJcKiUQO49deH5V65eqt7xW8UgNbbnY
+  VjtGonMtF+HyzNxkwW875TQBT67LrxMeFEWDnoAdc4lasZZyFBV0VoGpuStrBS5f
+  tgYQwrUCgYBuptMUg7YNPVkuVbVEOiq0W1d2DLYNYMNxc6BWnN+thsxsEbq9e8cu
+  5d+vjJUSA/fRwtqr8rYxs21l21/dWNETVVGQKPVhONGpJaDz3GNUEF1UUKa5asKg
+  94+dGuKua7no8mCfl2wNTSTNOgELCwGqAHXT0QlMGd2QKgIXFO/uyg==
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubelet-airsloop-control-1
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEpAIBAAKCAQEAxpIAL2MOG43TfjBzz7MuxcjpNdaeLOYd0acyE1XilOmtVvk0
+  S2uWiaQAxKE4pHellH8NbYewXFoQsp04avJYBzbR6TNhfxY0aqzTO0qvFhpgDR+7
+  VIlxtfz/O78GfoSKPt1SafvxxbBsfj3CTvIGU6QTykHlEX60CVu2TUcsGgB4Qb/s
+  jk68Aai60GYT+WwHCl122eLihnBCHrw1KnCmeOliNRvuKan5pHyHuyxmII4IIoDd
+  iKL+5MIKJSSCH+t31gRnHM4T9BSz6uws3K7DR68wpAUCcDaMpsmM5t9v6xkum5+1
+  9nRQa2hrPey+4BvS1nrNlVSMn9n+wzaFDUxkYQIDAQABAoIBAA6FtP/CNdDsEXCk
+  KIQjLaOHaw7l8FGGTt37ZV0mpdiQMn4u4ZU2fB764JeA1vyoR3LRy/CbwNkwORJn
+  Dy47JRb5+mYcvN+nhxPaKeSnNKDgMvAixveKyccuhpgfA2GTXez1EMbxhyAXJAgj
+  iidt6eqKEGx1X0RlSNN6Yp3KO7528zwkFP6r/IM1XeKSzbUvstRbP+96rHR5V/tS
+  3cuxTkbd1X0V0vxionATCqKXeVlzsQ7c9cNdPpUFR6ipFV5EVwW4NLgpHBk59N57
+  ACGMgwi84gHnJF9CTBP6dv1lQRFYazNftpmSk79kttmvAhqifcvoA/nvoVJdc+7v
+  SpuSdOUCgYEAz0ednYv3xeg3uH7M7GHCIwic0xGnwjJSSuLs4/tEp8/AcLax8Cf+
+  AtUjtstekYMnRqO5T2dQHuhVV0KUCFRVcP5WwVMtYAQy+DnKOROnPpYHY1718c4A
+  hWeu2m2s2+F0gtwLL+Y9orCnHe53NMmbWvOVcnVXXW/bihAwvTIVMccCgYEA9T5S
+  vs/d+Z02oCbwd4yxUGASjpelysGDlT3mpsXJPTI1DHiFp8ok8zGLaX+wIxRz69IZ
+  nWNySJq+KwKSSktBJA4lQ+st2tsaE7C2WXNuJMEK1wCGNfJYdeZb96X/Hlc5SQCI
+  Zpa/O+lpbXFUVDcNBgu2TpNugllYpsdA4MDTuJcCgYBve2UaRx2MI8lUQV6WBD4V
+  +ZvfKa/AkrAP9tzSAWJ7nxExjhFFyTyk6V28AsVqHdAR/hy8yCQfe3Xq6LQVhsYt
+  b53ZfJL7AUcommxZJmjdEHQIzhoZY2KEXa99a199I1U2zIJ30K11wu0e/BLBIW2d
+  DUVjuhiy+GZraynLmBQuIQKBgQDkt/Ax1uk9gBrO+CHyTPuda0xDQjk0RI/0Yxu2
+  0+VftnB1Jf34w3T8fmt3w8dAoDWQbIzJFVMjVXYf5LEMquygtLSaiD5my0qhrIAU
+  IqxJiOQUKoAA1fkcU+/Xoi+xW0WoyN9tVhAZzxEtKbGtLP5vcgLfe25oEO219UST
+  mCKdFwKBgQC5R5/UBEeB+/eEfzjCSTFWCyjOj0K4G4jwJZMCepmvEyEUQLwDkp2P
+  PlZbA8cyGsKdwwGXji3mie3JNJqFdcmpLuUxZYrrqc5HU1iPa5GZzRarJeysxP2L
+  pi9IoRuptsf6SttOXVerppOaFdHs2ixEOh98VyEhUlr2gPZGgkhY1A==
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubelet-airsloop-compute-1
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEpAIBAAKCAQEAvbvTzdgYaVjAJoUqDTIPNOiyTyBuNbSEc9NpfPshw/X4Qiac
+  yyNTJsMx7j7kjzceIoJvY0s6usrbLOj/i9BRLZV2e1pWFpCzOn+nCWjq1MSvSzr7
+  p9SZI/CIprFfV2i5F/A57qGWWNl/A40AnYn0mQKNcBM+u0J4NwGR2buPCs7TL/pb
+  qAeU6mwX/1Ptf7SZfZ7fAdXukavLiVaTC7kDOKR1D728GWjDn890m41xTMXyYQsc
+  lRtkgRXgd84cVGujUHt9q5AcriKqkXmYNHzngpvidSPjUWWBHd8Oh+l/NUIBc8bt
+  TueLJjwYjjAx6MVGoj0b9o26RYbi/YKaIAWQ+wIDAQABAoIBAEeb/3m+aKBCFeuz
+  8MYgMasXdEz3AYGVizQoA7VfF0RdroBREHZ+86A6pbq01BDVjbMapa3FM/pSG9zc
+  Z66+RhU9RwWRd9J2dJ7MlR+xEIiTX1G2hkq2q8Hrw7eeVEyqQsmtKkBNjnAkTpLp
+  geTzr3SciQNW0CNfF/4ywnh6GKfL913B442h0L8n19z1oW3S+5bxL+eh5w5H/45Q
+  SShR4bXb2Ml+CBIwmc2qWsEbwMn0k6TvEKpuJLLbCk8rYDC2lGAiSDWwdTEsY5kQ
+  kX7xNTdQMoxu7FYEUOyXm35WsM4Gt+RJVMEBDILf/gjpfhqdltmtzi8A1bPZxMLW
+  Yzzou+ECgYEA0+oEPrOt+/tbFGSv+Ki/6zlHpDZN8fRTlfpcQWBs3E1+GtMwhJGx
+  nOSV2cC/rGDxDTKC/nKts9r2jiWak9W+OKxCGkgYo6pYyf/NoAfdg9fPHRbTCWzq
+  5KrIxa+hm8Ew9ewPEtOjkg/4TPKPIStwKA7lXKXVlpWMRnhpPE//MAsCgYEA5TSK
+  SWFhXbk1+QIMs6cK8EyCS9+5uGh88Sdw5AdGYGdMk97bjEq9BQeqk/T+X1zQymGP
+  C7pCuiEXBPcYmXpP7T9WueGfadiP69XNWg56G6ishdCPtRGgwsE4yiJKJ1HAe9hZ
+  tkujYbE3JiCgtpz7hGdO7kjFQWo/g2+xwTftCNECgYBuPJIwu++J4Vuj5CzWQZJ0
+  nrtx5P3vG5ZPsolDSRHYGEe9VJcsn02xvAdn2yjaVyOOJfSWwLkzkngnwdADj3EA
+  sjtAyLhoizjc+8DPuse0yhLnovPtN0eJ5H3EuHRtPbZmd4Hv3UB9vuj/vj5OlvYl
+  IHqYE3xkdS8fiYvU4BhzuQKBgQCQG6Gak3x5Rfq2TeCYj70j6qa9d7O4SxHLOaYT
+  6LMJ58jQ6/yTz2XapMBN+Gp6oMuxgvdCQ2Cy0B0+BPHVhX59RyaLBl2JWhzbBXjw
+  V0vU2g9mrwO7r5KpAH1pMXf4EsF33EZDhHj78kUfVsJVLoxA6gdJcD19bIT0aaSU
+  PEpvEQKBgQCOTjzThN5cp5BzHUb5KUiJU1Erf/AeA8s3Qa/z1J3cQGzfZMyTmgzG
+  Q5i42xzc4AybgQsfN0u+EBdRBoeAhdFzEBwnT8BXPtBLqoFKEf8DY7cKMVt6CzAy
+  bsqgU4d7Dg7Oxa+Al5fHBZlUVVGQcnPs1jr6j1jSU7wabDGfDWk8Lw==
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: scheduler
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEowIBAAKCAQEAn7hIN+7iRqaIAe9vtpH6bsY0ZUqGoSagJt4YNQczIMpcO9UO
+  KJbs5MdAraX1RWtsLwWHmIQwcR3PNzMLFZuxvD/yzDobaqg4u9M+QMHQ3YmH1W6P
+  vtIyYtJNUpnyQa8yI7hRv88vWCmfvkza351DpGAbz0vqaE0MSM/APD8iniJMVnb4
+  QdbNgF/RZW3RN8XyowGaD9Cx+WK/EECUn6uIdYpNPCGsuaK7fMzPvCfzLptqlg/d
+  UyMQrDOrLXTyLGYzNDa/XUYKQ14UzPDOl5iTTukvbtwspdWl4M8TWQRq5dFQSQUP
+  cQnCleok54z/7EXlZYdP+XSmdkBEkC8IthOxxQIDAQABAoIBAADh2bRFY4aUYOfx
+  1KIjiEiYW627jabSOcw9KdERKx0hQQUrlhpvSvuwhhDve71YbI6N70POZx4Y1g4t
+  //+sjnzFtaefIouiRj3zWsKsz2SJ3/Az3iNlsdWN59Nu+kGWoCZGXF083bwU7sb0
+  UbkuezMrPLwWZUMSOeElFKDAkIZjE+D2GjMtC+iRD6GZDTUByugKqT7o/eQEz1zJ
+  DfYlLhUj+XT9k/haKw4SFWpP8VgsqoJIhqU8FcM2AffI4YQlKjGLLWzq7oIiyp02
+  s6deMIyv8WT7j3bh6WXHxI/GC0UZQv6wEExcM1W/UldLy9I58MuU0vQDqoTrrjZ2
+  8N74E7kCgYEAx/B1rKbFWY7bIVqVeFgs1L5eUHgntJWttrnCyG3fPbgP4d/PU4rH
+  /aUK0KOx9EvOLAzCvXZWST3m0Ys3G4GL7tGxaZKW1MooRzdNZ1JTMS/dgEuvQhnv
+  HadBAmL1MnhjsVZz9iEitIGO4wJ5E3muI+YNwspv4vvXLhic+22xkhMCgYEAzIDk
+  L9Qs+SrSVniuwujKrkaI6yIZkpj1HdbnWMhT6OwcphTfGwAVJlY+0vhib/PERlnl
+  OBNxjfCVkDvOmR/DZdQdZrJjPTRmxoJSK9FnYupdqNNLt1DwPBEg6xj9gpSniy6i
+  yc7Xtmz/Qt9Sx6iB0WTfAfup3e+pWNbudJhU58cCgYAGKA9Xi6MUCOQSeNmVZRGs
+  U1hQHgMK+njo4Xtv9IIlQl+q0tttdR6HXuegWQoHvbXRgWsVrmklxDQxS5oczLZk
+  WiyeVZczYi4vUzKc9dn9771gT/RLksTcIuRLkISAU1iugzz63TZWXI7ryo2z3dFQ
+  5aqSzuz3Dk4n6zYaP9xx5QKBgQCc346rheZN6ORbAs6Eo5C+qUrknE7jnsQA9NaY
+  y2tatKyxVjdi/eg7dVNSAMl6OZNpqBHmtzuXd2Mztj0gRzZbyaAYJGVuEOF6C4Q/
+  Kq5VOZVJKXTelY8DdNw8m/n0DlaLtOWZSzs8LFaPlMJqeD/FQcy0N7oxjmPoy082
+  T5hqBwKBgCfAJYZ6kPAAPz1c2XdYSbb4evI/G9LnGvKyHIO3UZy87R2N2egXVQXc
+  FL7LjLngB8aFNX6qw74pnsGROhEU7Nvbz84JR1sFhh+kipkLgGyr0erUgbHGBKul
+  i8r47pTPYYcV5NEkmKZbRFW7iuPvitq470GRrOe++2WAACHkyNiK
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: controller-manager
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEowIBAAKCAQEA2utTj67qzVL9oJRBzVzqriyZuYlrgzOx6BYK0xMZ6FImBgND
+  BEe65Xk9V/8kqPzTkuOHCt0TlyMaEl4ZEY0MH+7K80nyczO1iF+2nDMGcRUfNb9v
+  PR6ua0mq9cdIZjC68nD4JVx0014gZU08F9IGN5WSuKim33YqrtyC9HDLtwsLpIE6
+  WWNIuhPf9YyBlwSbdnREKllnDWE6MgP1aDECaYHOxynBwpsTqqLsQ+lR1wlYVqOD
+  MTmq8glAbx2wLD2gbJjK3yAw/OHvdN7u6CuRxJoB8vbI1fJnrfTN2Axr68nDHx43
+  b5HwzoaTeWiO57kT4TfNi9pYGwFjGvqFAgeAkwIDAQABAoIBAEcggFTFoxo05Zy/
+  rqV3k/QlH4kNofXN3Pan+rpbkWZPEnWPp72DRLD79Ddb+WBCTMeDz0NzUsMfL4Ba
+  PFDcf9z8K8ph8zkEyu1VE7KqTWR+VVaULSMxjb/j/ny+U8KIAKV2mNkisf5era3c
+  KzMeFNEIctQ2T4l5DiMkGBQtdbKxdRYTaM6lwDY/3yIRVyrooTq33UtBEvQj1sFr
+  XpOL/rN3Rde2+WiEvT/qcZzvG9R/ObNlxBaydWavUX9B2EQtXLXQT1UOkGzq/qoT
+  rYUktauAcG5PMdEUNpygyitRoEpr+Q+QooFUupsQj477KVHcMnW5p58S6x6my1Dy
+  vWHS0LkCgYEA5C7Mh44HQlfhvZbG/5OFY2+HZbksgshldFrRRhzfIiW7X1NM9I94
+  G+ChMqZa8WlfmqTxLnAnzdyEadjFXquHW4X7GMAXyAh3I6vAQw3iB56IcFBGhrB7
+  BrUinuSJu9ebQI2aR7Bl89CODmIdhcZP5r0TS9lL9dEe2sNUJ2FwBZcCgYEA9Ztt
+  XnRIvf6liS1jcpj3ScfK8+CPwIkL8dQkiLbbNW2gZ1yHUYcsd/rGTWgFtIIQoQ9+
+  CdKtLyAdQp3a5ylV0vu9XKWwTTZnpq6/9gj7FOBfHcaFT8ny7Zd67MPIYFHIcXpH
+  cwX7nx7+xrdwcmCSck8TC6M1bOjsL+4paNZ2lGUCgYEAxv0I4C27pt98vRj/8WF0
+  sYJRUSRq7KJV12JbngkPjXfaLwc11RBIbgc2jDUGmgCKnxG4QgcMrznfP28Kr8Rm
+  BiqRDsR1+LtpKnJc+BzjQEHAOjHHTy4YG4Fa77XdZzJe8ayLHnl2b2kweNqXZFHM
+  3CuG6F5XH8d+YMh2WuFeD4ECgYA2X8OVzq6wCWlCdl725vCQUAAZf9SzbmPLlQjF
+  j532NR/24iA/J2rr4QP37RiePtFJpvFjYVXgAf8YWXQ2CwuqGvtwQGpIncvStgtf
+  f9t+YrIMGIA5Ct+SRB/9vNZmpJR4svaQe3maX7VN7xyg5cpmLiVsRSS1yNdJQTO/
+  twMnlQKBgE6v5fI67xX9zXKjNMD3A9vNvFbw6fballuteWGd7RqRZWEWPYQP3rAh
+  haiqUYJR7EvtQdUlIZKOMsYWA42B7LUhCo/MFqyOeKwjpgixdwP1Zr1vyhhwI5i2
+  Doet5tbNmLdIfU+pJU4amBnCbVfc9dPqolwxsEpSJaC4yZVpFQfp
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: admin
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEogIBAAKCAQEAn48kyXtTx/Y4dX8OxYJ27ISMbiVnirhMwfcgBhx79409ctzm
+  dMcczUdCRQnTPuF5y/DhbeSIC4VCvZUQ48GrSrG1yxLcCPTr9we3T+g9/5cZ6WkJ
+  ofOlH/jw3SQx+P/HljG2raTsfke0CnJ5SDG3iib+zz/5yEyxA4taKDMjJfiItebE
+  jfWA9q6nYMkg5HlQveFHGD4AY5Yutwd7qnaiAUQcH7dENr7/3rHe0oW5kcwLhz48
+  J9DJaUWPblYSiHEDLDnGGDi85S+mIPoiN+W5qAfTa0I3kaZu/syZHMWTJ+vF+3AQ
+  wJG3ImQEYWRIBbx9bM25OQZIHSND3qHGskXTPwIDAQABAoIBAEvGm13kaAGK+X0z
+  fjxmnTvuJxMYSHgk1q83QcolNOp39TrblcbX2OHUebB33g763fDw0N5zrfhqrSuD
+  46WGkGbExuVOa5kFWBrVW0Vjsi30AKZM7/otz7nDbABZ9DGgp5S4v1zv+jButR5R
+  BzA2DEhcBJ9AbsulQFvCjmqQ/pxFEA7NcbhHEwmhF5yjepJC0x+v5KE1f5gPWnle
+  kA+jJipiphieuvu2nMRceUWGM4aLa9QfMn25ZEbwvZR7RII+RSahIfcyBkGu2u/v
+  xDHP7wxa7KbL/zlFntc6L8zdbbL6CcS+1NFRi+dTJ27d27MHLZ05Sm1vCKfJCapk
+  AJtORYECgYEAy8HFhWBC0vGuO4iRvVUFRO329TuS5ZaXWdzuGzIZbZcaq9n+hmAG
+  x3+AiWc1xt2x/JG+ICH/ux8+0o6p9zzWBIGJgiKhZVmDWWSqfd0jbLlg0zUo20w+
+  5+keCwEJTa6ABVsQ5iqGxeJyvUUwSE+mgD986tyVMp0BjajAD4hn15ECgYEAyHhP
+  9h/4y/QOhoNGO81T9OSE6tdJvrtejTA5eeJgYZuJ/36y43T91YOJqJNbUrOVg9vY
+  js43Kbm/opvj1Qo97H+JeH+9uZ/2rtrzyEThBcxzzJN3PgZkiGTMqs42HUQwl0fD
+  7Z61hbC70w2NPLwVQoc9/WL6GRitl+nmfowVtc8CgYBqsI/Igtr6sWnV6nDFfps/
+  uIqzZfpJFU0y1KgovVbrN0/T5FWN7wIdu/mF+PEDrFniMj4nfSX2ySmP/vuoZcZ6
+  nYlvBssT0ocga8GKHhzKdVbpwNAf5BCcRkhg4q4IavLF2yVCH8pqG2SRDoV1l59L
+  T/MM12uYEPYbQt0uRPJ6wQKBgBPz/al2tzG9ofB7gnMTVcbrM9uYAAwO5DNTWHUs
+  NgGhFJQsjSucimNFC1+PAyjxHPGZ4S0dk1oA1fUeZQfgVBeE/i7TMBQYutneiyMk
+  z+ze06vKBbVTt4/n0IMzsSkqj1ePWg39nP2ogJlaIPOpmMgdY+sjfdcfoK+dJUb1
+  NHf7AoGAHpnoCBCFtfPfo3UMD4nOhNOjVUXVRd0NkWryIeJBmFwfyyzMWdFFx8FJ
+  lmpUapmc+v/nmeRuQ2q70YL2uOPv0zDfcFZgjoMIfEb2IKU17bNgEIcNwWkyMpHs
+  gA1K6yM/BmCa6UVCwfyOFQnkMfQOW7NfCG94cB1HGYwQrU6K4T8=
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: armada
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEowIBAAKCAQEA2qYdzQFgLRppj/FUOj78cckkzS6x7YRR7O5gY/sqM2HmLkO6
+  Q8I/qgXzNU/diSgeq0MC382r+YlFpY3frAEkGfZIhTwqXkbN0X4fPuVAFyzmDT37
+  Aoj2Eh8Zg4mm8HP80r4oUxgoago/ST+tXZiCojgywJ7h+9P1dceLbbtoeMhRaWpr
+  4foz7lwLNDcRTwU3W/tBsU5YbHQ9a+VfiYV250+nqBwXE7bFZG3tiZqBap2inoRV
+  ZkbMwGmpGi9ZoPFPOVylR37D04HsQbxoq1/rVjOY0ANhxjsJT5DKu1XKSpPQ3N+O
+  SX8rxd66kKKQgMvFSIWOe8ijvZ1K6WeEvU14EQIDAQABAoIBAGpquUxi5AVvunsV
+  cPIcX8+dn2zB0lWQtjMD3iQrRWHWvyo7SnfaHhRJaxLCeUddIHgoWEjHGHGOLzih
+  cYCM2Z5NMQSvwMs72MaihOCewW/GKX2+ceHM+T7ephNQNtEHEsEbThMLSfg6Xozv
+  EhjgtovvoDwB2Gkxw2D8qs7QjMtjhNMqAR1PzHHZU/nk98ybP6mgFxBKdoxrHKuc
+  hNtCynk89+S1TGplaLG2l4T0f6ONc0cxuQWK7QRkC5XLoFdeQ0YOykhPh87ujvOF
+  IoV666AuCWN37YsGs8vVC9pPctxzbLoJat2poZtLi3qZXmpvRNr8g8fBiaFL/Iw2
+  iSqjH3ECgYEA25K7qB6KXwaZ6KIokF44OH8nlCKQ2Nn/Zfock36KseE707v2/9Lm
+  R0ZTlFh6UIDPkHSkmFkYs2pr2NE4WPvTh4XcP+z4taJz2h5DOcqqakgPEMFcs6DZ
+  fGPeJx+Y0pZ9EptqusS4UwE1oVCobzHcNrjsgJ/XWEYPMVVqlokrd40CgYEA/uwh
+  CtRjWntpUpRL2wi1lw63qYqmnjMarbyHBYaSe+yZk8hXERNjvewHB0KCclLMVrcO
+  cGcT7iV3flOU0kegZ0SqDibxcKxDvZPoFXBgOpJSpsCCUKtk+pr/03i4Egl7PcIm
+  QQ35cH9Gp9Pi6UgVkJ0N4UoeX2/F6a2lW4nGL5UCgYAwKjfP4SMpRSFtzmRnhsN+
+  YSYlcI+lgexsSjkKga+a5XViNNExvOmWqO6ck+wAzMC7R1rzsFeiw610mjBqFJOK
+  Hur5etnzvfb72beVbceEGNp1KnVTUe1jQ+TvYBb92tUEx+LZpV1pl9JT2IWaHq3X
+  syjt7iIm0vdyMvJ2oxBN4QKBgQC0UCl/E4PDOI/jDWoqYBqx4oMetSfttpAkW7nV
+  ur5aUZy/33FWbrSaXh0KkYzbeJ14qLrZ3s9GH9JJ1KzroCZhZTw0Dm+xFuhDbB85
+  KuemBmHX+Usz7Efcy04xMq5gc7xsjquoUE4juKMtir5x6771L2Hl/RtGvjTreRwB
+  h45bkQKBgAethgfIlgxWGz5wdithRgl2dZmcuGlNrmK556rrcqqMyPqw9+k1q7NZ
+  KL7uVs3dXEN7HqtdEPWZ9sKh1Rrd5CCyL0GIpEvtGyMfHizaO7oVjSYqx5+1MY5i
+  Mv5r2u+BuG97qNVc5tjFVg3Vr/tBVVOv/55KFe8XqXUCpgXgs6jG
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: apiserver-etcd
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEowIBAAKCAQEAvCKxpgZ+cgQ1EL8UOSo2T09FQ/0VDL/jC1fQyLTDZ/dZxST8
+  5oIIxMMb//Kb8OR9STWrAynARIC3npMaLaUX0vSM58mMSUS7RuBabvsCkUsKXYFZ
+  NkdbFwd+8zO7RE87KcVTyj1HXl1dXX2t2P+Q06pgiKv9q6X9mtLdmvPdWTJerqZ2
+  Cy27dyL4EoGSekKedu6C0Cnh+k6hTNaG6hES08kdiGzLniyKLHXgZyceCtExOKMh
+  4n+6KMh6UqyJcmH1VUoBCfkcSSMa8U0GlRZ8zyOHbB4TWKeJ597gGEOXwP0F3DyB
+  E+ZO01orW49hczLmukhw4P68+hVEU6fY2QLXpQIDAQABAoIBAQCMdNpsOSztsnZr
+  qjxO8VTaoTP1Ll0ox5maPlWBgnLgi6pZpOOqtCoXvBKLY3VIw01F+utR0TnZ6r8r
+  hGdm7Hp85FbONYqmqMmogJcDhCLGll+Gr6sK+vrmlpIQv+5vcTeaV9fWhSljKhEq
+  W0oPV72oSOsJHl6kZ6iOjh8kMCxxCgIXyddWbiBMgypg4X7C+3P2TtgDsKkRNufG
+  xEhqyLoGcRP8S97qFkrA3GKOh1Lm2KPr/WvxLPdWjg2GbxCA234+PGbCp4x+um71
+  JOWSPM8gJJA4YtMnGN66OMR3a2pEajQxnwA4DimiWEh91bNWKEGa8EIVeQ5IttT+
+  kpvepMmBAoGBANWxIr9rugwF94FYScQ385TY43wJOMIUuYTSM8o2cjgSmJDrmhap
+  LoG1ML6JIiqaH6C3OQPo33s+84DTAbm5dKI5IHBfDRMTAX0BvyzzSSFWjBC1usHh
+  vPFUQuL5dRknUpsWR4ei1Xe68BB+Dr+e/vCyoaUWX9PdaxMAGYbCyykHAoGBAOFi
+  Pqc3yMnBr3IvhionjN3TRWJufl5WmP+xfVIjNNiqh06X9+a8dSJL3lAFUElsyEdQ
+  hJz6VTFVSyibT5wSGrPqzHKz42r1IeFUE1G5u29pQKZHSE06E5X3G2jcQQHzIisB
+  IGmqlhr8Rrh34dGm2kMH5JfbuVhGqbPPPyfN4mrzAoGAcMxaDTUuNd6IcYxLE/p8
+  51s9aWHsxfXun7/deqYW0KZwRj83TTLsy6b7HfiBQn+spkdRH1EzdnkaTCwVwxW0
+  DVWeW/Kwkhr8NCJR6cZaGfD3anKjLGieNb1GuUz4lNh+8EJoa552lAbnZa1E171z
+  0VZZoS0YVFuSg6sPzmTQnM0CgYBeyj4Ff/2vdQk/4eLwWb/yD4gP9N6q+IrShyho
+  4iu4sEfF8z4sybgN25C9YO66Ysj8zU1o5BPucqvwgRmDT03xu1+PIj8UXdKI/R4+
+  8fl1yvOIu1QaPsG8AbiCapfgpQwKwCeMqVUGNnHb5XeRADatmGU4xQ13pgh7ej9a
+  k0mVpwKBgA+KBEcAiPsgRCZ7RiWj3djcxUgQ6TokYOqCYR4zFz/dY4IqsgzXt/17
+  BeA2FkfLVOH16Ut7841ceW61qRaRp3j83rjW4B3gvaDNmsfHlQi8cP25fkOOoTPC
+  ELUxzRigThEerf+11zdQXIL6ZVZbYcQRNA+9zVf69EMQaN7LWlMV
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubernetes-etcd-anchor
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEowIBAAKCAQEA5tmfDl42yOzQCLpp3t5nM9ZAHNyWMeZjuwEHcVjKs8rrOSKq
+  w9iQRwpq5ZtHeHyJXKg/5s24sfQGPdYnoH2FQiAj70Y8/Bi2GKjTHxSVWRoMSrTY
+  1lyTtiuBzsWFHrnfF+5x+scIYJlVKpcNRaxD9bDYYA/06KgIoOspa2NEKV/3qjnZ
+  ZQ7+AV0qjpnSgfTNfSppWmSD1cWsX8RmKkyQVDpxZ31diuWBezLD2QtdF/58hvdW
+  uQ3Gkjh/14rH11mLf6hQruG4vML1QAfAFd0WFDQ4XfwaRjzgNcHvioc/LJQk1yKs
+  JbtkLrzphsWhLDylAU5/RUYvguSjeqfq0KETqQIDAQABAoIBAC6jGHcWoYrGDOE2
+  h9z2oXLffeRWzCEYol1NP+uuPIVGIW9RiZ43Si6P9DievjmhLz8A3qgKN5375qbn
+  dOn/ccSCKcBVOEzV0TP6J2zIA8QUdxdAoe3slgrfj0HutY4XjvKOwYggXZjmYUZR
+  beT9gF1KdOwzTQ8To2qfF6cSTtrsniXwQaXzOCJGx5iJPKmJ+P14pwqMXxXJcY4v
+  a2RZFqbkt4hbtSSkQpWvGmi9H9xxwLmTfqej7qmuBSphPllvXoUF9GMh/qnzgftR
+  N9zm6qtO/XQ6dZEhPyLLxaHbZCry1n36j9oBNZXwQXgc7dQjytex7KgwcRKubzXv
+  Yru/DuECgYEA7nEd7bFW8moKW/pHyQWwZ8u4bMxy/jroE0TP6TiCXC2ZWoC1dWWN
+  +B+aLV9a7keFg/KJ3j75UgD8O67mI9noM9p+SWrUJk9JVYGct4eVluZnYHVfnYG0
+  cYf7d08oZHnencVYu9sQp+5MsmxcquXuQAPS2tcSpjMxLBcVmMZYqFsCgYEA99lk
+  KmIbY3/VKxfI4zmgE0IKudMFSio/D5l3eVBefIr0B6T6YbhDcVgpD0kguJFUrOAj
+  /ehRln0w15BPtKTahwxARoKTfhaAWp+TCObIC+Wvl/ZhNYtSwJUf3ja10v78p2Hk
+  5TiMbOp5+MJFlFb7CkdURMuvkUthI3dl6eDLE0sCgYAr8l9QwuHCljbIkw2OCGVm
+  DA82xkvffZ3uhz1Gv+qO8LyWCKjpNUmAVNrGyA9rYXVDR32Pn822BoZ2vZqfOvdo
+  Lzodb/ogAXcDsnre/Ldec6LUDW4NCq3mSujXKZjJRAj6zTe4j/y25t3t+LjvqqdJ
+  1yqSuRcv2LmUZcDOQqhuhwKBgG12/S9e7zvNzMdglOAOpm17AKO72J099WYdYNAa
+  t/CHqmnp6o/YQyk/R7sxkBsUTPKheCP/RHGTz0uVuC5PlRiKR6UcrKnGpF/iFJ2c
+  2AOxKRGTxrFQXHckJdQOE9YhulLvAJpglFzSXpaIrxRqKiwK/uP3lg403a09Yayf
+  FPHrAoGBAMoXxTAHH/PkYhKtQFApufZLe8hqGxwuUREceXRVThZJtgeg9Kvmsyrw
+  jLPqgFKZh1J2l9BwB+5PsmXDOyYZ9Nb+rR3CVtnJlhvUta3Oy83A6zKXOIFaohrH
+  W1f+ZuCuEdJ6EvySZvjd4o0NuczYP+KrThUVpsqxK6sCf+y2D5xk
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubernetes-etcd-genesis
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEpQIBAAKCAQEAyTmO+c3KDg8yzaK0TuiXmYJaFMlo1AA0lBwmSPTcOMVH1H5Y
+  6JIgDYMQTNqx9zS4aF0e8IBDLjD48eDLTddRjaV2fujW50XzU0BSLpblvyKj/LLN
+  nmd0W5+wmgWeSQ+xap0uUYxYZQ+AEdKPvo2N9DT1tsHh0vb2XoRQYdP++yMG2w7y
+  sS209J2O15UpPrx3esjyk+bHwB0O5cAHih/GhAe/tKF9HTMAR70yBFiXUnEpbvPP
+  w+pAZDFNePsqhqwFKXC00Mp2CvENW5ITbyqZqkyoLXKOtBGlwYxIRsi9oKpOHAK5
+  JUy087taMD6pTZAj3CiKUquGFzgzPO+Haf+RBwIDAQABAoIBACMfT8xcVgs0Lerk
+  nlIzmNprfSupqAlw67x6WVhcnN+v14TIdN5LOxsAqGSxu2RpqFJXBqJ10MQMOjeF
+  xBaXIZ32poMqQvBlLj52uKF3JyzAcB0YXHlsl0uyyNFpb6JTAeWY/8+uDnO9S95Q
+  gVSCQqfAYq7+klsPThtbPuiEZzoQKLpJe7wJTXQPeZRrDRsBKvrhuSeSvlROrAiv
+  3wdfOZ0LPTmsezxSs3rHSZmzAh4nJhlMnhjHuiEMxoPj+uqJR4W4g1/VQkeqR82z
+  I3SvSg/VqRnnL3HfFsZ8BdSkqPgYAlptlmKnKsooCAWXW/4q0BzIC3UTvJ5Rx/b0
+  1KCgfdECgYEA7qeFK3VbCGNMNtKjaxocN0Z/UtbCh1fpOWz2dZ7vHegaG7cAzJKO
+  mmELYqmUDFM8HU3GukwRYiTEbXDzFJY4XTL+DJcGhFaQht7LMaOf5DNrwTOh4ImX
+  KjYYCVXPEb5P3zXkqgjgIHwGYEb2qLAstb0TzggCWRNvpsIGXrmTZa8CgYEA19mc
+  wXK4HvbEF4vP2S0lf8iU0YyUiDjTKzjrDmNzxnrVChacIE8/iacqBkv2ErP7xbxc
+  ycs8xcq3yg/l6pnQ6RZWhhyGBHAhEZlsjfcTaLMbseD9Yw8NMEqxLav30pWAlJOJ
+  wPTHDPlyAzUMy5uxIDRtdxdczRg6uRanpA66OCkCgYEAwrRxdU89gc5hc6jOIqce
+  tgoR/qev9XPHl05KlROhyih+hHX9dOls5o6eF1R6sMOHm/DEXWGKHSQaDZ/E8drN
+  CVx84BCnBHkLWL2T0V/JJwi8tNdHDkWyyoFvgs47LiKyT01MzVyIXnhRS2MaAe4Z
+  y/wCmGj4YWv1/3r0b3u/wYkCgYEA1UcccLjd3RqPH4TyVvEZAG49PeDeUstzPF39
+  RDZYi2GLZ3B3zCUB7w3RpG8iMdDNkdBRDsNWxUlM2Mdksq5Rkj6UN+evNGtnAXDL
+  pmrgLq/rSZO6S0rwCSuEblBhix5V8njlwFcc52ECmtCsV/L6zYuALhBTjgPG4mPU
+  OXKj5iECgYEArkAj+Hcn5b3rvxYE5BcbGU2UZEO/yWX/3yOwRRL6exClJ0vjqTQ6
+  HUzfZ4/NqJDBqx9+B6MSD33T632dj7+WUm6BhqLPJwuBMbdSWTUrCk3lZ6uYp8EX
+  lCa4LHxxmHIs4101/WesKPjONTZPBLoZFxHsoH9GiupXqgIhHlbC8j0=
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubernetes-etcd-airsloop-control-1
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEpQIBAAKCAQEA4G0wclLTM6m/sGssDBBnMT+CUJf94W5SvUef5PQalmYW9xQM
+  fkqpUBnvAFkKlqC2UyCOrYZAkcP7tvorGf+YasZHwxsR06oz0L/T+XHefDglNEf6
+  1mlnSmsIqqkM0B0Fbrezk14eWt+7BlNsYpJ/bi6Pdd55hlaX+YQ1JM71mqPZJeSl
+  UIy0aDdIklI6a2c3tfO02YuOwqkhmS8B7SoURmiapmyVZg4Zrgmdin9t3LQ+6d//
+  +2RyZmpG+fggDiRfep9D3rD12G0vQOCYdrutRY94fRhuYI5J1Dhu2ruIjG1WzwgM
+  20LapMbJDv63mwOEOJC0EcQLl7T6KuiHDbnULwIDAQABAoIBAHXWfyiX+pNW3vKX
+  40HWXwiJyzfcBo8WaVU/RWJnFYrAwfAr07+AHlSTuV1aY2fhrLoLDz9njYG8AO/7
+  fSQig3oU8FsuXHbiGGDUSE3ijyp0JHzGCpwILhbyClPpfXPMuSyAQkbvlUqrzLyu
+  kutS9pv40JTYIsD5uMRnuavBC06NG6x9AmJeE4e9ibIe6JrqT7Ab5wyR9lK2BmFz
+  lrAmNnjwcrgcInMnuk2NyXXiahTvkESYk+Vk6D5pKwyzNvc2MgAQgPHlK+YLIpO0
+  dciZ9zuSJcULSRRqYA+sSAfo6SvMQYs3YpuXzcx1ukp4dZq0YuRvuhLlBGmtf0L4
+  8uu8qWkCgYEA5hw7ilH840CrsTg39hXIgc5ObLVX3GIekIRyqxmupxG3gZxe4oo+
+  lvKhQq0Dr+M7TK/a3boLJVupXj+O2vrJ+CunGx2u7GfUHOye6KYt4jvVWN4sLUes
+  JDCU+wnKgA4t81hhE6Werz920eoVCPInZrNaYXxMOsiB/I6Kyc8iuG0CgYEA+a0/
+  62idmH8qv4zOPMrI9HPxQpK68J5FgV2CSbCfGCJciw9fsy0nDhnpI8NsfcyGlrR3
+  tooKncINR4Xk2XuOh8mNq55vkeSpOby8hDQ3DMyMotCLNnfpdNylCgpK/aQgU36u
+  EnHFhI5UaoOiWDJdJChezAlFM9xj2oe4VKIB1YsCgYEAwPu+h4O5NhG/rHI8pJqi
+  PRL7vLndhMuZXJRn4s04J495Oi8deJp+YXP9AIE/jVxiGC+Hu9rSjDMyeQOO2GHp
+  zsM1c01SrZtqThO4Nd9grdKGW/CAVj08xmEkIOGWPg0mRmbBi4uj6M+t4+CQYZ9M
+  ohoa25U2DTqpoVkeVp/sO4UCgYEApY71QKNJRTKl5Qh4RSVuZXJwO2XSofVBP4wC
+  9dwxUq6OUQOrwMMjD52s07MlQLGbWVlnvFoCuiNP7OpjGrdshqvmzjMr5kEK2adG
+  FiANlOYaJ2hDt6WB36Tjpym2GkR3zwXEZaSdhc1fOpX406Tp0C0Y1xEam037xI+U
+  ckJPFwsCgYEAvuInOAOi1iS4O5Y2BX7oXn1H/Uc+KvhIpAtJJcZF71i9IxH8Luh6
+  G7bjROLnCPcsdQX95TQvwu/qEuMjfOsHEELPVapE9aJWnOtDA4kiSQo+3eaM0L8j
+  ReCqUew2vzFjw5WwPe+v1M3qz8tM1Kf2gK8gJ66FvOR6e9xvFANOeUY=
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubernetes-etcd-genesis-peer
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEowIBAAKCAQEAp2mGcYnHie7ToowXej80DXG1vu7yu/LUMJ0ZvGW4Yu8y2d1U
+  hy9EyNkmYRptXILQkE/6F5Tk/6idD9ooiDWVWMuNnF0BPgTu3zWo03tycBk/2rWb
+  WmRlGI3GLUABQFaUz76yzJ/yMQg8Q4WlUkHdgIG/c/ODqLZ/upQnWcBDPzFoYwdw
+  mFfgTtVjmLWs7t3SrXme3zN8b3MYGzmnRC6fE5PYXjHpDgg+00/XsZ8zaxvjNz7Y
+  29ivp8thDkHbTImka2WDR1vNjLSB5GY/7FqARTHIiMMgg2Hr1POF+Fsc/c7xbyDh
+  9K+6YsEHlbvyDxLzLoT0jYN+w9qMs09xj9YGHwIDAQABAoIBAGP8rKWHKrwA/jmo
+  /iSvNwGIlooQ4LzMTVszmTlib3v3bSGeBWwwGR70Qu3gAM0t/C8U9UO8VAE1zYi4
+  PVkM18QO3ucyzRkjjR+XRtv4cOLu0apoqP6V06OUmXZRMe4hSAPD27pHFTmft46E
+  dbbpS8gCtjwkhs/vH95pug7qu78zZeA8/8AO+HYObahQjNrTz7pBp2ZqsSJ72hBL
+  WZhbQBimhHHQtbJmCTYY2Q4YK/ltlI/i5Ip5NO4ytMtGPNad0g4LjU9aUMSjRbjf
+  Q5ZGDzYczA3CjlcGqWZ+FMlJpeLpQkBz4maJdxT5O+ve7PM53vkeAmT9F6BgbllB
+  FeajokECgYEAz/6iEou2Ex10ym3GbGfySHhEPL73MiIFxrMSSlUbQkGL5nAgblR5
+  uVVC74jKsMATgP4Q51JajzJ7GbqkDHZ0EoNZa7IWM+yoMlmDcdQJ4ISPgKXl/dk7
+  2+xWgfU8cxR1hsZCHhXMmEhYutz9duirCFOyb3SNjhdnJ4UjKztA6FECgYEAzg0T
+  z19gBBKAWMRlAkR+F06+8N+yAVuCI4GSuqh8v/VzAJ4FSp7LrPtV96q5roRN13R6
+  L/mOPvdPjX2wnfmHP7V+TYjZB89LfNA+7ba5GhtpvtZa03bnzxLhTQ7qZi03h8QM
+  /H5kh17AWi/7KA+qoIZDV9UJX7R+tId6Tk+0228CgYB05mZtCf0BbVLQ2zXkg9+W
+  f5HKmoIQuTKJ5Odow8CYUoKwt2Bi4jOvyI3gVv+kq6/KlgEmIhEn3nV1loLRRloi
+  dZRyhRsZf+9grRLFjSkn+Rk2cwd6zvdnucM9M3oQK/WKFC/g/NuK006bZ81FYauO
+  +IuXPOi6bcjaW2fSynDGoQKBgQDEmAObqvMQT5q3lwKMzE7F7DMP3U6YLvgW6mzV
+  vSXxfL1yDFMeJC5OaCtYt0KcOM2QUSi3l1JZz1rOs+qMf2TEq2TLk1MHOYhbmNFB
+  u0IWn6sgEqLr+hooH2ppPF72iBPgbHS7f9hotEWwhvEKAxCYQiIErlVYQ/1UP6K5
+  DyGO7wKBgD0tDuP2PWKX/MZHlw2INrqIH8SH+NyzjR5Xc2K4XXsNorkOZam1ZZt0
+  T0Ef3LHXueZcR/IZduIpiJgIEqr8cLDE+NKqS4JFP5Wb+0TldC7xjyzHErsomUl5
+  9Zc1OKNcewN3aXQ9VIeXWoc8MWiSkUIegvcszf3wHUntMJcNMU1l
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: kubernetes-etcd-airsloop-control-1-peer
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEpQIBAAKCAQEArpbH7MrWzLphA1CRy/v8n1sLaVWWgojiFyR89nZqUiWIW+VH
+  +dgpNxjqBJhRuXA9ugHICYmmPt3Hig4NwhMB+Xp6D5+fFUquyjM3Ei5ZgVu9hv/A
+  CnbDW/uwCmuV3GEpuquX3LUTRrJJEI11+mM3TPNRiRvKZT1jochiY9Rvv9rpgdah
+  H1+wmHY3YRJwHv38/6Q1yC8bMCLBe5VclS2EhfHZPw8BRJvuOdylAzRa7QDO0Bg4
+  b8BmU1J05sEfrbBBN2mgy+xR6MeGlR/kQND9DW0vAsrbrgtYX6BTAllyCmVSjaYV
+  /b3M9M+XxS9hp+xhAZIXkfzKc0JiaKutTlL+FQIDAQABAoIBAFKR5x3bVLlgkE80
+  BLA3jeOD+KKpotQ7jsopLJyXpnMRYysrBd5o2B1BwDPKIiSUq+zTuNqh6ikjVKK7
+  QNB/kth9j0riUCeOuZnRnQMRPq2KSNmXDSklwAE5yKk09pxSq5yoWNs+HE68NQgK
+  DzkLQXU4QmCY7yDwZrV2Aup55xwR0XLEUkwGZso33Pev9Wn7v3Vqohlb584ZmNXJ
+  d0/FUdqTnv+pIUBAq/H+VXgD2VaAYJtx2Ignl6rVd/uhXMTJJpPB9T/iB0iMSAsY
+  hH1N6QRQPZ6LzXSEDE5fFxr47/4W7+r7B5i67T84nddKZlj+XtOTBarWg9ZiWnqT
+  5vaR3gECgYEA2wpvEQA1V+zZS9p+lZ9cL2hpMyLOKokTiuxe4Y8aLASeSW+UnqFO
+  JS+CN7no8q6ig+PPML7+sYQhN/kSrC1bmFXThwXqqIx+XblM+yVs92iO39Q7eJ4U
+  wq9v4zSysGrwiRqh9sfZkpGs+5NQqIBzflRVs9fO2gzAjSPMHoTaS5UCgYEAzAw7
+  hfnxW6nU8SVS4l7IeE2H+bN+cxOgOVCcw50VzUcC2rzE/CK44h5lf7oGQbGyVuJS
+  GVt4F301XGd4vsrwQWZknD1+LclyEEJTnKa3FYqgTF3/o/IPX2VQgyV06UJuYsTm
+  cwudmAoRJjXIcUC9crzQeoIBez3gqynHgH6NSIECgYEAkHSIHQkrJOpxwCG/u8NW
+  U3mjb3Lzzn+KYONUC6OJmiANl9a7iAZPeByl30R/SZU8Xojd+oLri3zdP4HG+8AK
+  GSP5FaIkSLYnHH55M2RSQbQ2DY11Dy4J+P8kZg46DjjomzLyP8M7TPs/vsY/unDE
+  Ojs6LhoUNB+W2T4TfskVAiUCgYEAui0rHmpYu48xGTo57wwWlBYBzGbnKG6u0bzo
+  3F725o81XonAnmG8Ga0sZSdB0C0nkLj9ud9Iqv32czKB7GvUXYfkot5Ew9g7N/Sc
+  v6EqCgCrlCJsP5V8S0lw9ch2bOLNP1dzAWOGzpPY4+lM03EDqq329uCqI13pIaOE
+  QYy2soECgYEArK0q2ogF/ohqXkY49DxSmIqCHteSQTQVmPdxgm5auaRhqnt6YAzl
+  4Pgly1B/DzR4siA08GJD/GDnPO5+c5efvNSx0qnh9eUyMoQkVqtIG8EGo9nZi1rB
+  8KCSbo9CdbE/zO4/2ELpRMohg6RxUD7wqcF0AzA2uXE2e9FUpd9sFUw=
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: calico-etcd-anchor
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEpAIBAAKCAQEApX/xQMCKU3oaJMOFKUVf7NFAqhoDGxk6Ay0edGVuSl4Dyy8Q
+  SaRCmdD/lJzCvKOB/i1I4tfI7VkYpF1jkEy0K5H++k+DKXNTcvQIHIZzpyDe4MI7
+  jipq/Y04AY1JwdPDaTZ/13Tkb4EWie37XBIi83rC9/clXNyStpbctVw9sMoYSk6y
+  H2SWNfcGFpLnbLBGUYYh7nvBcmt3438rWWwe3ZNt0ZqKf6jhRsbjQ+hNWrc4ZGJb
+  n0JkA3xIpzqbNawlUsuG6upPO0wx9s0pABWcovjqdtQmE/hnKsc60UHyZ3FXuR/n
+  RGDrMIjDUwcgUlmGad9kIY/miVqzVH+xejva1wIDAQABAoIBAB4ra6RdNRowmRF4
+  nw69+dWm873OjiBjgeLQV8vqLafa6aAhjTuPeSCnK+BAj3Np7ymRwcawhY1W/5n+
+  +EZ25SVIMQ4abpOg1WaQO+ZPUEf4Qwj//3FUJDrigoIt6nMuEmJcsANr6LS2+I/e
+  VUMcf0iZaW9gm2wJPamRaNya2xgeBB+ohTTFDAyBsj6433pHH7lvneRESsnD4NWQ
+  fVY6UXrqB321Gvuhd5IZaSEERKmicYUL0ZdyO5ol92TwfWaFBsd241iQbFon1T2B
+  AUb00LMtWUqYqFz9uKYdvZ+Mq4teXcGPa38V0rnCHcwH+/Q61Yltm1JKIUIqcXKy
+  mDkXg6ECgYEA1vjJrGLkuGA4HZEf1s4TpWKHLN8VBKzrdOsFrDus/X8v4GTXyvwd
+  r3aXIVOGEYjUQz/MHVlHsL7MO7QDTn7QlBNjyQ5A54ngkETa8sqZudzuzH++//iD
+  9+j300FpO0i79gnosSGqA7Tk4GY+sWgC1bblsVg69uirIVDGTFN9GtECgYEAxRYF
+  klylj+6xf+whOipJs8y0MCO7htYHNZLxIYvZ1froyGv0gq97nLSLfF/oZq2K3SeO
+  4To4FyLMQnUt3TPx7ojYld4fsHM2CCKQ+e7P/3y7vrKUFss0i0nQ3gJv4z1ESDVJ
+  ZxD3G0MNYshRNVV2LETEq2VhzXGX8Y8RxAqHtScCgYEA0WYaHJ9gJ/Eh+DsLBpRK
+  Mslc3uqWcK131bWxGuouQeeIXU4dnY4j5GziHgZcC+x6xt74FoaG/LV9/5IDvoxs
+  5DBW/NuzgVaetik8FVAgmhmJSw4MoQ4UjoISFWgb9zGMVcelMBWYpG+qmqM94lVs
+  nXzBFRTaqvRM7fDemC6jKGECgYBQD90dkvNS4BVNMSBiX5FnMA42zB0+7i0pj1LT
+  XNuWOIJeALTobd8aTqGnWdKv+2nA43QAfMUSaPlvOejyxkpOq1rIrt5SsMrPTTN1
+  xJTMZeBi3GqaQ9xJhSgLOBQ5zMazSqpR6ytm8Ls8WMHcl6YU367BLcMoUS/3WjZO
+  XDS62wKBgQCGKWOeQyBiNqTSxAshJXQoB3fqanYz7JYWlr3seiCl6bqGkGZqnyzA
+  NuxjG7Q5wf0z4u3iCG8g/JwjgouPZGYapfGQbL2F+/SfbsJjdG3P2FOIS3pxplOi
+  snn6jJ7TmSZ1vNdplFCO4iVIv1Sj/sLeI6ozK7DwVWVIwFV3B1TAfA==
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: calico-etcd-airsloop-control-1
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEowIBAAKCAQEA3wYYyacT9EKEwD67hvl1OYxishhKqxt8jzfS1Bcyf/fuIl2f
+  gmtRL/BNTU8sVr24M73pSB52bxiwig5aoTrp0q9bAtRi8kbsloMKkIz7TS3HHjV2
+  5m1+P5vgUpwSzbUW2ls5+Zsj25/FRq1JLTQogM8Hde1q2Q6h0EXSZBudRuWK6nnd
+  YvCC5k3qK947b4pCZxTLrCRqVqg6F0iLPfHxxRRItYP9NoyfzUzhvgn+1t/WmMmI
+  /LUjO8idNyl0cmBfm/3QuOIClLHSd24FpvqEgQD2N91No8ZAWg5BxVsDOvoEJMjL
+  gxrEiicXxrioBbIl7wV4zhNoXycw+eDxWI5PewIDAQABAoIBAF9OFa2mzmolOuGE
+  bVLCq4uKKGr+4nm4Z0Q0kM29lAEHjCX3aECtZ6ZaxE3zNXlj3aGO2G/PRME5BcgZ
+  VjVsHZvA/913sUjjchrnqM4Y0RMsKtkH8+WIiNjZ3cSvmYF6j2eEcIPv/iTOY9lO
+  F+VPUreowQFuEajsDc4Y6E2LV2yBwt/nW9bWUjQoJXUYbJObPAUftG8s1b9UR5cQ
+  04QJCbN58wx2WHZuskYGllTyUjqsSfMWqze4fWjDxOFRTiPq14+K3CFcY4mvwMsd
+  jGMe+gmUwVoWOwJ8LwUuio51d+kDXlcYP5X25vrSxPDBMK2iacfdgU4Qf/4FXaSu
+  IALPCEECgYEA7TZT3KP4/M/AhSq6Zl2hvRwTHCvz9EPgFlWyEmnPBzXD7MoeJzNG
+  jqzXbuUcJBsnY6FlDEHzE18XBpAyvzIs4vL9quTtZWvxb13VInOejyiFJJ2w6lms
+  ClXVWNDOb4CMHuiDAwY/lk218oapaNX0fSIuhckNDrYpn/dQBkzK6vECgYEA8LAW
+  dzp+2rp7Y/glewzT4koKSDNW3OOBPAWqVsezIB7rrSj59wXJNsyJl4Zhfowg1RvX
+  PUBmkcwxWE0kvxydosYxWNm1pKduvHjE5XYhUW0LHwlGk10yKihL2jFV+/d14/hC
+  SP0P3DCdrp++yzeu91YRwEqkx57QOwxwvGHcaSsCgYBnwOBzXEEWiuQBGwxGo+OP
+  bI0rQEpG571G55qolSEZXTniAxGnQbU1yIG+HnXtkPbsi/Y/o0TnjyrqEv4vRIn/
+  hhrPuavgNZN3i4oitIGAyk9aEaMFDc3DA4H6g/IXMRmYl0hedUgwvLK9bosAsLxs
+  UxwYJjUQ3zpbnnehGcuTcQKBgQCvos/CEZ2gX5TLTrmLIcE80GrQZSZt6lbURg4X
+  ZYMBXY79vXkrGb3Lj1aYjCd5ASi0WqymtegjXK5lkWXPUEJ4FcjM3ZH/pW7Zege0
+  qo+Fq90BuPMXdlq1CNLRVk84n0wYH4G/YWvBcniehVPlV60GMHijqdS1Ft89N8bM
+  sVz2IQKBgFnmbfQARxxG8xGHz/m8nOhSCmet/ffclixloOcXYyqz5zVIZsMi9iCX
+  5kJ1eb0lK3xbVmhTqZZzpbM1iCz+tDUX0Gs7R9LaKAGFbkO5UBlqGHyRlH4mcD0/
+  PG++RsohE04jV7+RnVwDF6X0gS0wp350p5qgn7pcsp+X61K7eTOJ
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: calico-node
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEowIBAAKCAQEAw/87PXpmn8XS5aLcZLezTIziHjSb5nOFL3XouDwGaXXUvkRS
+  6d0dz+MJt1Hxt/bWrY8w+3cuLn3jnlFqw9NuGVOPfLHmWWTLj0mBbK7dSwpoETHt
+  Vyyp8l+pL5mFT0JRTZ2YHHf9vDlNfrsabofsenlajHO1zwPCnjybvsDHohdsORo/
+  W6fxypPaDW18X+IB+54/FNTZyn+uUWPpRYtTQ07PSu5eyBpGfuMLZ9IkoHiTCIVx
+  eIqjTMCadZ2UXMg7dVJPb70DdabB71te7SmZs6S+YtjTIV3qMLtDHPRXA6aGHlK/
+  X4O60EXKBdQb7gGCMneNQwp7YSGbwibbU/KCSwIDAQABAoIBAEg5R0UyU5rQtRR1
+  3S0oHGQ7Dh//Vuum6g9BLc6mH97A0vKCDuOq3Y97pFrvUVlvFlDCkVQ46MWtEjGG
+  4wbiZJHknt1eWPncEL7uYUkBbv52CT883K7hAIcWBSxLMDqyv28QgbsL5G511z66
+  B9VvNQ80pM9Y3Eg6pH7W6rVyKJ5ryZh04XFEXsd5MibzE2JAetA3aY7I59n4X4Wz
+  4GtZ10ae5F/GSJ8WokzZXQbJC3Yqelyn/PUTSusvHIvOOzySkRvx/ivVzVkj25Nk
+  ASmcb8nFsiGD7gHow00B1N6FbEY/KHLLFHxGM68QAbW+bklkkHknJth7UlfzTpv0
+  /zmmK8ECgYEAzyxQK5QY74Zz0WLdcFQjfgz6240/ULgZDS7/lR7sxVTmuCIp293h
+  610fnR2Zu5FutXPC/VpGpuXFGKog5oGDIQuKSgE5wXBNQNneHIbqjSVMBxYRNp4s
+  B/GW9OMFcYDwbn/qlMwBKtU9m0WRX2xxNM1XbJlwWj4Dw9phPXn9lBECgYEA8jCd
+  HINAZUv9q9j1UeN2zYi5NPMGZuMJLnq9/Fhf++/+sMtp1MyW2sQvv0aH2ObHX8jY
+  p6rYegMa4xjRxKj70La1G90ua7vwiAZK8aZG68GSvmOtDUKb5XNOF/2n+KiPkB/y
+  7vHz0VRP2rwalOei+070EoEV5CEADN9xtl+4HJsCgYA9i2+BkqxZs7qCUHlyHjyw
+  /JAlWu+dPiOLDBQ3K4mxEYi82MFQpLixn+d9WEbMNucJlostknz8pbOIoTnG4GCh
+  F3mMhJKwyXjZtB9MoDPbnGHalQ6mCBUSgw2SUELUtjY2zV9Vtsj9/X0gvGj0TRXQ
+  VtQK2gZLeLLLovtSNQRE0QKBgQCUef0357do4qeH3SC4rUy+QN3aeksodHPCjPlA
+  ZSWjHMT1uh8NmMe7Ip9rEmBiN0lvjYBVekXwt0qagzLG8BpBIGHzzSuSXMvfeIwl
+  jZzZF/lQw2bqRDWy+3ea+aUqqpwo7Y1PtAGYCapTHRLmywN+Mi8r0PuMujZ/rdTW
+  y+PhlQKBgChrC7Rtr65pJaR/W+W7hP0VHRy2JCmpY5TUq+ehnVQ8BIsxWWZkm2SI
+  ofdYwPso1+CMjMHcj3EHsgK1Bv4OSFj/y+fZnrbeFzA6adHQ0cXknA3sg2B0inqC
+  AZAmjAg9IK69rNWaBUJlsGlWJ0dLyYa24Ei4nGDxaqBsQB5qJpW5
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: calico-etcd-airsloop-control-1-peer
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEpAIBAAKCAQEAn4K6CUNe8V+OA742aVJlvla1fms3IvcvrF63ap0pNcOWEQJ4
+  j7gPDMTzdmv7tT0xF1kfTUxhGiFriO0Rmq4eP2kW+5YZEj3HdzHNLjd95Ka8L808
+  a4he88W/of5vv+1XtGnClpZERuJ29IFm+AVyyVNp7tCY1pX7n5GZUncGZTj6FXbR
+  fPIIKG3PsMapCiR4pCTMSfNPUzAeTivw6m+q5JnmN2BuA/K5pdNSQTn3VaA2dtal
+  BNDSZsermSqSzRs9BTPoUR5wQUGa/noyyiVbMCfrYREu0xER6DE/Q+nI0ZFDYTz9
+  JWNRvTnOmBy1009lR317sdpUY44hsUpVZU7HZQIDAQABAoIBAFUwYxz5XyZ4CweS
+  ucqMGAyMkIfAyQSikVJ0j26gGtc86tOQx0SyX09JjGFNkHOeB67ZiS8mQKHNAXpy
+  ajl7Dmp9PKoG4sLsPbA558PsHQ9VwSGiccdYYKW+kfb5RUNyhamz5hm4jSRyZGd3
+  CMAjYMeHBgdmXooUNftlrkXtjXvXFzpk02qeVlBcH4rkqCMziONkBM8EX0hFwS0t
+  MjxYC+VSaSWDmgIxSI5ONseL6zg4wMq3rz60rge17bmzMJAZwAcDUeKROLfehSfD
+  5mG1yTXTD0mnD5VvQLCFA0Xq/+qJQ3/con/icb/RusY3hbIxN+KrEhYqz4BA0/XQ
+  +ElL+qECgYEA0NVm5h0IfOGbLitHe75Yqy5kW/LeJUb4ZK2uGxKT/+6TCJeAcZQS
+  i1bBZZcHuV+FAfBLF9YHbFDNGp1K6cgak4JxO07YJSMK53MhkcSn5+9DJdZbGcSR
+  lXNNIpTO0Fk/4yb3RiR4JNui4MWdfVP2pY8RZLDQy4mXYBciEMC6Rk0CgYEAw4mC
+  fu7S5nEHdDQNls9bVza92wImeXdxF+ul9RPh9MeBzfrxwWY4D7Wz7F+/nDeCSig7
+  4whUcPlBtuj7Zo3tWEDMsIU9WoGUux6fPs22L6NAWbKof4+DHs8PqV0L9pu5WGDy
+  u+hUQmPVy+SERJ50PfC0UXL4KKQ/NTunElASQXkCgYBdyCfwmQMxycL9hdQRPxbk
+  sO3C2Rtn1CpCVDjG0Z4DJimDhz3YQ63cQzaQn7WJStsZVsbySlyFCPhCxnZY7FL7
+  AW5GOw8YBlekPvDJXG4m2yzldhDtTngujFwMdpU1vY7SPLJ5HnGR48yOclBacvVl
+  vg0KkdkCPqTrMxhKO7KrVQKBgQCdmn0jAC3e7WV7pOT7FCDkF8xI9N+78ainBhma
+  gq8SE6gtNMGdB13SU7s0nywapqcOTIWQhUtCT7VGz1yqmWSfSINzF8GO7HjLpW/n
+  N/lLRkL8yUKEplCiCXTvJn8ZAwUOFf4vtKANbtiI4aQ2hpzcu+Eq8QbSAyirKGyO
+  FxnPyQKBgQCS78M+LDM6puOkGJ4BbImtGXK+kpd5gseu4EVKk6/26bK6nmODeCE/
+  gJlcBT270WPYNk3RHnucTyV9eL7E8z4Soc0g/qSKvxjEm7D7gLVaplJdMIRkHHPQ
+  nCnytsg7zIarlPW8buk2Fh44aZPstOCASPWJliB6jlHPcZhxopPu1w==
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: calico-node-peer
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/CertificateKey/v1
+---
+data: |
+  -----BEGIN PUBLIC KEY-----
+  MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtd4HWtbUR3+lS5x9Ijzz
+  IzPjXicZFIv8uL0ZA0XRnWwdHCZ53CLeiq4dgxkejXMqEGe6uikZniQAd0uTHvik
+  nW+2Fgd6n6z5qMkzAaI2RKHUAKEQ/72nL3qe/2viTBtI07uq59mql28SOu2VKL8L
+  NwWBxOJFTV5YKsLnALPsI598ZIV/Czdn6d7GD6gx1QIiNk2bCLLGFafyTsirRtFD
+  aHF3/LHddcx1kdNuxYAyeOoEItammraev6Un+E8TBhRLLiSmyBkOB012YeoyRBye
+  sJ7cPofqXfprNeI5630EHsWBd5rUvNqqqdFbeCVgqr5twJv69cimRnoayDCp3+bW
+  YwIDAQAB
+  -----END PUBLIC KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: service-account
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/PublicKey/v1
+---
+data: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEowIBAAKCAQEAtd4HWtbUR3+lS5x9IjzzIzPjXicZFIv8uL0ZA0XRnWwdHCZ5
+  3CLeiq4dgxkejXMqEGe6uikZniQAd0uTHviknW+2Fgd6n6z5qMkzAaI2RKHUAKEQ
+  /72nL3qe/2viTBtI07uq59mql28SOu2VKL8LNwWBxOJFTV5YKsLnALPsI598ZIV/
+  Czdn6d7GD6gx1QIiNk2bCLLGFafyTsirRtFDaHF3/LHddcx1kdNuxYAyeOoEItam
+  mraev6Un+E8TBhRLLiSmyBkOB012YeoyRByesJ7cPofqXfprNeI5630EHsWBd5rU
+  vNqqqdFbeCVgqr5twJv69cimRnoayDCp3+bWYwIDAQABAoIBAGgOLhUaX4C9Ft0p
+  HyuMxew5Tvja0+2+no0wnHQT6XfxmMI3fXend77PGlGc+K8j2khioSLMSz0BCkc3
+  NWj+CGmPthXql41ukbWx0H45ymUAVmU5wpkgcNyogvpPRr4Wyldiw8k97+4O/dY7
+  gyE6FXeYrgPxFofK2BU3SKZNS2mhasdHXO3/Hqmr2SLlSWUW+9TGFHG5Nb7Hgg2A
+  GLLMIA+AN2Lfjl4he9e6vdQQAfoPlWHZvklwnscRfUymJWP5mCMcaB9eLQ1qIB/n
+  wheyTHl6oWW7XiTY46d0aEYzoKBaFjBaJ57t8FX3I5nf1SSUmxpRTLcr2CCCL8i9
+  54t7sDkCgYEA2MyB1+R9sHpLTywu5qcgz4QsqCLODHLlJA8BdHQ/DN5Gmi4TciaO
+  JF9K4o0+UJ3EMO7bEZpnnW6FFQYW8+VFGEUKz28pgM7UbGliAlRObvtxyCFhvnH5
+  808klOlPaHXKDn87cOdaFfG0Binh3+bq3cmdAMYKsjFgTGx+LeA3ObcCgYEA1sCP
+  ZBJKkKUhzKkcpXrt9DO3dcbrtoeLxAyZsh2r894iKZoqbhViQXyMz5lOq1qbpWH2
+  keaAnDU/egeA4QGrqZcKfDZlFElAvPItOLMkmOOnsHfdJ8a7WmKLiOBQ263THffp
+  sGMPinxhS1TA3viIwj2upeh9SLeLnR0uuxmdOLUCgYAzmUj2B03a6OBvsYZgIzrt
+  6Plv8wizcc0TrfacruYqu+R14a2DJ6YBBiUekptYOJRvSQoewG8Uyy8ld9OSrOir
+  BBO0lzJ7k75/Jv3KrCIWzAWiqj9HQn1I6Xc9ceISbKZwmNue3ZFVU7eTF/jIf386
+  1jdl7byx+IqA5fmKFalPNQKBgDLBJeKP1CGldXyKR2PwzsZVZrmmPtVP6b92/ugy
+  zQ4A5PASKI8F7MfvaNQztn0XGAwZQA4xfRnuF8d+eH41R933/ZlnvbHysiM11Ww+
+  IpsjyuERIyqgdG0jNzktUs7ooSnHCusOLoEbbl9Ac6j+8kt+CoXZkaqa/psuZ3n+
+  zsK1AoGBALgy8xhgmYkK92qAZk5WOF/urwp3GJCDxK+sjpnoOgzESARZDMLsh1dl
+  NvJ3wKDWZhFr7oQeqAHXP1S6fPLTh5RxNw/8JZPuNAi1JI3KD4Iq3JalSyW5jVKG
+  EaugBUG/DDAzEPf7Ptdm78p48V64ajn5ClSWPN/4wOADoFw7S04Z
+  -----END RSA PRIVATE KEY-----
+metadata:
+  layeringDefinition:
+    abstract: false
+    layer: site
+  name: service-account
+  schema: metadata/Document/v1
+  storagePolicy: cleartext
+schema: deckhand/PrivateKey/v1

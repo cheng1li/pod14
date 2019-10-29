@@ -11195,6 +11195,16 @@ data:
       interface:
         tunnel: 'TUNNEL_DEVICE'
     conf:
+      ovs_dpdk:
+        enabled: true
+        driver: uio_pci_generic
+        nics:
+          - name: dpdk0
+            pci_id: '0000:00:07.0'
+            bridge: br-phy
+        bridges:
+          - name: br-phy
+        bonds: []
       auto_bridge_add:
         br-ex: 'EXTERNAL_INTERFACE'
       logging:
@@ -11273,6 +11283,9 @@ data:
         oslo_messaging_rabbit:
           heartbeat_timeout_threshold: 0
       plugins:
+        openvswitch_agent:
+          ovs:
+            bridge_mappings: "external:br-ex,phynet:br-phy"
         ml2_conf:
           ml2:
             extension_drivers: port_security
@@ -11374,6 +11387,24 @@ data:
       ovs:
         node_selector_key: openvswitch
         node_selector_value: enabled
+    pod:
+      resources:
+        enabled: true
+        ovs:
+          vswitchd:
+            requests:
+              memory: "500Mi"
+              cpu: "2"
+            limits:
+              memory: "1Gi"
+              cpu: "2"
+              hugepages-2Mi: "1Gi"
+    conf:
+      ovs_dpdk:
+        enabled: true
+        hugepages_mountpath: /dev/hugepages
+        vhostuser_socket_dir: vhostuser
+        socket_memory: 1024
   dependencies:
     - openvswitch-htk
 ...
@@ -13772,7 +13803,7 @@ data:
         type: git
       neutron:
         location: https://opendev.org/openstack/openstack-helm
-        reference: d2abe39d498f48c4721e26aca19e81189bc8891b
+        reference: 93aca8ee38eb34c8ee3ae70ae5bc2e3c369dcd80
         subpath: neutron
         type: git
       neutron-htk:
@@ -22945,7 +22976,7 @@ data:
   platform:
     kernel_params:
       hugepagesz: '2M'
-      hugepages: 512
+      hugepages: 1024
       default_hugepagesz: '2M'
 #      iommu: 'pt'
 #      intel_iommu: 'on'
@@ -25491,7 +25522,7 @@ metadata:
 data:
   documents:
     treasuremap:
-      commit: 805896fbd1e1b6d84af20681e303d8e5577a7a06
+      commit: 9272362ac452dbf7e2e5bacf5a6d967bfab5c4c0
       dirty: true
-      tag: branch-1.5
+      tag: pod14
 ...

@@ -128,25 +128,6 @@ data:
 schema: 'drydock/BootAction/v1'
 metadata:
   schema: 'metadata/Document/v1'
-  name: extra-pkg
-  storagePolicy: 'cleartext'
-  layeringDefinition:
-    abstract: false
-    layer: global
-  labels:
-    name: extra-pkg-global
-    application: 'drydock'
-data:
-  signaling: false
-  assets:
-    - type: pkg_list
-      data:
-       linux-modules-extra-4.15.0-46-generic:  
-...
----
-schema: 'drydock/BootAction/v1'
-metadata:
-  schema: 'metadata/Document/v1'
   name: apparmor-profiles
   storagePolicy: 'cleartext'
   layeringDefinition:

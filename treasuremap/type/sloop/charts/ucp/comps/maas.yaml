@@ -1,0 +1,182 @@
+---
+# This file defines site-specific deviations for MaaS.
+schema: armada/Chart/v1
+metadata:
+  schema: metadata/Document/v1
+  name: ucp-maas
+  labels:
+    name: ucp-maas-type
+  layeringDefinition:
+    abstract: false
+    layer: type
+    parentSelector:
+      name: ucp-maas-global
+    actions:
+      - method: merge
+        path: .values.manifests
+      - method: merge
+        path: .values.network
+      - method: merge
+        path: .values.conf
+      - method: replace
+        path: .values.dependencies.static
+      - method: replace
+        path: .values.endpoints.maas_ingress.hosts
+  storagePolicy: cleartext
+  substitutions:
+
+    # Drydock IPs
+    - src:
+        schema: pegleg/CommonAddresses/v1
+        name: common-addresses
+        path: .bootstrap.ip
+      dest:
+        path: .values.conf.drydock.bootaction_url
+        pattern: '(DRYDOCK_IP)'
+    - src:
+        schema: pegleg/CommonAddresses/v1
+        name: common-addresses
+        path: .node_ports.drydock_api
+      dest:
+        path: .values.conf.drydock.bootaction_url
+        pattern: '(DRYDOCK_PORT)'
+
+    # MaaS IPs
+    - src:
+        schema: pegleg/CommonAddresses/v1
+        name: common-addresses
+        path: .bootstrap.ip
+      dest:
+        path: .values.conf.maas.url.maas_url
+        pattern: '(MAAS_IP)'
+    - src:
+        schema: pegleg/CommonAddresses/v1
+        name: common-addresses
+        path: .node_ports.maas_api
+      dest:
+        path: .values.conf.maas.url.maas_url
+        pattern: '(MAAS_PORT)'
+    - src:
+        schema: pegleg/CommonAddresses/v1
+        name: common-addresses
+        path: .node_ports.maas_api
+      dest:
+        path: .values.endpoints.maas_region.port.region_api.nodeport
+    - src:
+        schema: pegleg/CommonAddresses/v1
+        name: common-addresses
+        path: .node_ports.maas_proxy
+      dest:
+        path: .values.endpoints.maas_region.port.region_proxy.default
+data:
+  values:
+    manifests:
+      maas_ingress: false
+      secret_ssh_key: true
+
+    network:
+      region_proxy:
+        node_port:
+          enabled: true
+      region_api:
+        ingress:
+          public: false
+        node_port:
+          enabled: true
+
+    conf:
+      ssh:
+        private_key: |-
+          -----BEGIN RSA PRIVATE KEY-----
+          MIIEowIBAAKCAQEAt273lGWAdwslQMwFxzfJpmPDBZkF9pnI5lkQ5OPFcK05F2AT
+          BM99t7rN1nD2YKsSDZYkjgR31A6mWWW1HNtKEfKQCvxHzFBgFhgRSQyJ6WDvHRhj
+          RZHKGNlRFasvtiHdDMdKdlXPr15pS28GZ6HntDRbwkslmE2phRAh3ox3RN7K9ZxN
+          4xGWYPD03J3bQgxp1hMVdhAvwggcklKz3QMhk8RwNL5n/tRnZ3MqfGkQwQLB+y1p
+          +BYlZst9EZ9tsY07Oxe+AUV2v7GtM83bi/5Xo830iwBASDg4e1htSnUlHh9hATGb
+          xr0Tygki6VvV1R+NoJY0k/8P6sDmyjiYdl25RwIDAQABAoIBAAj2UP5dHzOxxbYu
+          wbGEFkQc57BkU5hC1z/55gto3YKt0/ZCaWt4v8m0RM5PYppCgXVMeqi9qyUfOh1w
+          DLNGO4447bS7sr5WxvsNXfrVs/9FDym6wU7q2pbwNzf5zzD04pn3OrohYy5MTJS0
+          7fkuPeXeEQWjKkkQslGgAiefcUxaCRg5UnIziNoKlsKCfZ/vhcE6m0o+sye01YiD
+          c1MhPJYjQfcS0ZqVZ3fTH5IW4Tq75CpsgomgAwOt02Hw/WZC6xgCGz8ElOB50WKs
+          wk4HtT5wVDRFirVsjr85fWz0BrnkgV0Ls4M5HoYyQ8g6kCjMOXQsqc4cd6oeQb7g
+          BShnDYECgYEA5Fh6wT3s8h6jd7LX4PwiqkNaDoArfv3rMZQZ9FYBUeEyvYujKqsN
+          sGJa+Hl1S9Dv6s/hkla7Ey7SMDeTXz/DZwC9WM+Ro+Eb3Xf0LDrKCy37oNxhkb61
+          7PkX4BxnMRARzGbsjicVMRRElcGVUzwsaORcdYrfbJi5HxtghtdadyECgYEAzaYN
+          WTIEQfRQ8VKbl+aFWxiHvIn2KuWxXbGNB0aur5uOVO7CmcwZsuyVICppWaz8Ye/r
+          WH+7mYTRj2OICBu8m955ebs68prkVV7v1SaCjD+mTY7R7muBpEVPsKRso8qi/JLU
+          R27+5DQvhrhMJ9NIWaFaXhMD/kG6FFgyaOSNa2cCgYEAnpWgc1KZm7GRn9DyQst5
+          G7x47/ctvh2E2ULdH6cXdZEsFx3CbSCs+iHkwgpAXy41YWOMaoCXngP3cAs4636y
+          K3gFCIfnwuPU4WOsjYcqyMbfqeFEVd8YJAL/BONU+2sIoWedxD/6ZMKJu2PdXBg/
+          U329hNi0wIv0jVkLGbq4lmECgYBGLEJjzFBtnQu9vR2A0NVyh0VSDZWlf6ltOjfQ
+          Yssa+y6vRqW6y019o4MjbbVzNzcLyE17bmK6ePr1PdZeRfCvE1RKOJxdyoLdqr6V
+          8kUbzGBYGMMD40Vio5AUy5aSsYO6QfQTyAlMH46UHvFFqbAHfaqTbVOwgAcaCBpz
+          doHXQwKBgCXBWUDCC84F8PTV4xtYWqaftPhu9rewacInSfmrrqUW0cgOPxWEM1BO
+          dFB/BxyieoghGP281VcrnJGuh3j6aqb/rdcWmZ0qgAzSJMls/0+d2RbatRBEOn2K
+          sAXnT+qmj2jPiqsAlqtLdCounRKbazUVkIFu+4sCaORdXFJYoqVK
+          -----END RSA PRIVATE KEY-----
+      drydock:
+        bootaction_url: http://DRYDOCK_IP:DRYDOCK_PORT/api/v1.0
+      maas:
+        images:
+          default_os: 'ubuntu'
+          default_image: 'xenial'
+          default_kernel: 'ga-16.04'
+        credentials:
+          secret:
+            namespace: ucp
+        url:
+          maas_url: http://MAAS_IP:MAAS_PORT/MAAS
+
+    dependencies:
+      static:
+        maas_ingress: {}
+        rack_controller:
+          services:
+            - service: maas_region
+              endpoint: internal
+          jobs:
+            - maas-export-api-key
+        region_controller:
+          jobs:
+            - maas-db-sync
+          services:
+            - service: maas_db
+              endpoint: internal
+        db_init:
+          services:
+            - service: maas_db
+              endpoint: internal
+        db_sync:
+          jobs:
+            - maas-db-init
+        bootstrap_admin_user:
+          jobs:
+            - maas-db-sync
+          services:
+            - service: maas_region
+              endpoint: internal
+            - service: maas_db
+              endpoint: internal
+        import_resources:
+          jobs:
+            - maas-bootstrap-admin-user
+          services:
+            - service: maas_region
+              endpoint: internal
+            - service: maas_db
+              endpoint: internal
+        export_api_key:
+          jobs:
+            - maas-bootstrap-admin-user
+          services:
+            - service: maas_region
+              endpoint: internal
+            - service: maas_db
+              endpoint: internal
+
+    endpoints:
+      maas_ingress:
+        hosts:
+          default: maas-ingress
+          error_pages: maas-ingress-error
+...
